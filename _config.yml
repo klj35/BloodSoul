@@ -4,8 +4,8 @@
 
 # Site
 title: 血魂S的小黑屋
-subtitle: ''
-description: ''
+subtitle: '血魂S的小黑屋'
+description: '万物皆可萌！'
 keywords:
 author: 血魂S
 language: zh-CN
@@ -106,14 +106,14 @@ deploy:
   type: git #部署类型
   repo:
     github:
-      url: git@github.com:klj35/BloodSoul.github.io.git  #这里只需要把用户名添加上就可以啦,两个记得要统一！
-      branch: test
+      url: git@github.com:klj35/BloodSoul.github.io.git
+      branch: master
 
 # 备份
 backup:
-  type: git
-  theme: matery
-  message: Back Up BloodSoul Blog
+  type: git #备份的远端仓库类型
+  theme: matery #要备份的主题
+  message: Back Up BloodSoul Blog #备份时提交的信息
   repository:
     github: git@github.com:klj35/BloodSoul.github.io.git,backup
     coding: git@github.com:klj35/BloodSoulBlock.git,backup

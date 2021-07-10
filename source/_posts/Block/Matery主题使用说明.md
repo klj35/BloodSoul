@@ -1,10 +1,10 @@
 ---
-title: Matery主题使用说明
+title: Matery 主题使用说明
 date: 2021-07-02 22:10:12
-categories: 博客
+categories: Hexo
 tags:
-    -使用说明22
-    -使用说明33
+    - Theme
+    - Command
 ---
 
 # [hexo-theme-matery](https://github.com/blinkfox/hexo-theme-matery/network)
