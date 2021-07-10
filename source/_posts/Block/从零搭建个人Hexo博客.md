@@ -1,5 +1,5 @@
 ---
-title: 从零搭建个人 Hexo 网站
+title: 从零搭建个人 Hexo 博客
 top: false
 cover: false
 toc: true
