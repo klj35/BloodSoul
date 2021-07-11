@@ -1,6 +1,7 @@
 ---
 title: Matery 主题使用说明
 date: 2021-07-02 22:10:12
+author: 闪烁之狐
 categories: Hexo
 tags:
     - Theme

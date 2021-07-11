@@ -1,6 +1,6 @@
 ---
 title: 从零搭建个人 Hexo 博客
-top: false
+top: true
 cover: false
 toc: true
 mathjax: false
