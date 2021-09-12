@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>血魂S</title>
+  
+  <subtitle>血魂S的小黑屋</subtitle>
+  <link href="https://klj35.github.io/BloodSoul.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://klj35.github.io/BloodSoul.github.io/"/>
+  <updated>2021-09-12T15:12:15.306Z</updated>
+  <id>https://klj35.github.io/BloodSoul.github.io/</id>
+  
+  <author>
+    <name>血魂S</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何内嵌bilibili网站链接</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/12/block/ru-he-nei-qian-bilibili-wang-zhan-lian-jie/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/12/block/ru-he-nei-qian-bilibili-wang-zhan-lian-jie/</id>
+    <published>2021-09-12T14:36:20.000Z</published>
+    <updated>2021-09-12T15:12:15.306Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;直接打开我们需要嵌入的视频网页，点击视频下方的分享按钮，把嵌入代码复制，如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Zero2One" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Zero2One/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>matery添加live2d看板娘</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/12/block/matery-tian-jia-live2d-kan-ban-niang/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/12/block/matery-tian-jia-live2d-kan-ban-niang/</id>
+    <published>2021-09-12T13:46:09.000Z</published>
+    <updated>2021-09-12T14:31:28.761Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、克隆资源&quot;&gt;&lt;a href=&quot;#一、克隆资源&quot; class=&quot;headerlink&quot; title=&quot;一、克隆资源&quot;&gt;&lt;/a&gt;一、克隆资源&lt;/h1&gt;&lt;p&gt;找到 live2d-widget fork 一份到自己的仓库。地址：  &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Zero2One" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Zero2One/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速熟悉 Matery 代码</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/12/code/kuai-su-shou-xi-matery-dai-ma/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/12/code/kuai-su-shou-xi-matery-dai-ma/</id>
+    <published>2021-09-12T04:47:14.000Z</published>
+    <updated>2021-09-12T05:26:10.397Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、语言&quot;&gt;&lt;a href=&quot;#一、语言&quot; class=&quot;headerlink&quot; title=&quot;一、语言&quot;&gt;&lt;/a&gt;一、语言&lt;/h1&gt;&lt;h2 id=&quot;1-1-HTML&quot;&gt;&lt;a href=&quot;#1-1-HTML&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Code" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Code/"/>
+    
+    
+    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>B站视频下载</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/11/movieclip/b-zhan-shi-pin-xia-zai/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/11/movieclip/b-zhan-shi-pin-xia-zai/</id>
+    <published>2021-09-10T16:27:14.000Z</published>
+    <updated>2021-09-11T05:18:39.291Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、准备环境&quot;&gt;&lt;a href=&quot;#一、准备环境&quot; class=&quot;headerlink&quot; title=&quot;一、准备环境&quot;&gt;&lt;/a&gt;一、准备环境&lt;/h1&gt;&lt;p&gt;Step1：下载贝贝本地解析工具并安装&lt;/p&gt;
+&lt;p&gt;地址 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="视频编辑" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E8%A7%86%E9%A2%91%E7%BC%96%E8%BE%91/"/>
+    
+    
+    <category term="B站" scheme="https://klj35.github.io/BloodSoul.github.io/tags/B%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>正则表达式学习</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/10/code/zheng-ze-biao-da-shi-xue-xi/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/10/code/zheng-ze-biao-da-shi-xue-xi/</id>
+    <published>2021-09-10T07:28:22.000Z</published>
+    <updated>2021-09-10T16:23:58.781Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、前言&quot;&gt;&lt;a href=&quot;#一、前言&quot; class=&quot;headerlink&quot; title=&quot;一、前言&quot;&gt;&lt;/a&gt;一、前言&lt;/h1&gt;&lt;p&gt;在使用 Picgo 上传图片的时，会默认添加一个 ![]</summary>
+        
+      
+    
+    
+    
+    <category term="Code" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Code/"/>
+    
+    
+    <category term="精确搜索" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%B2%BE%E7%A1%AE%E6%90%9C%E7%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ET 环境配置</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/08/et-huan-jing-pei-zhi/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/08/et-huan-jing-pei-zhi/</id>
+    <published>2021-09-08T14:27:05.000Z</published>
+    <updated>2021-09-12T15:39:08.914Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、克隆-ET-工程&quot;&gt;&lt;a href=&quot;#一、克隆-ET-工程&quot; class=&quot;headerlink&quot; title=&quot;一、克隆 ET 工程&quot;&gt;&lt;/a&gt;一、克隆 ET 工程&lt;/h1&gt;&lt;p&gt;目前ET6暂时还没有支持 ILRuntime</summary>
+        
+      
+    
+    
+    
+    <category term="ET" scheme="https://klj35.github.io/BloodSoul.github.io/categories/ET/"/>
+    
+    
+    <category term="ET" scheme="https://klj35.github.io/BloodSoul.github.io/tags/ET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>青青草原——草的俯视矫正、大小渐变</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/08/28/ta/grass/qing-qing-cao-yuan-cao-de-fu-shi-jiao-zheng-da-xiao-jian-bian/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/08/28/ta/grass/qing-qing-cao-yuan-cao-de-fu-shi-jiao-zheng-da-xiao-jian-bian/</id>
+    <published>2021-08-28T10:37:03.000Z</published>
+    <updated>2021-09-12T10:36:05.381Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、草的俯视大小矫正&quot;&gt;&lt;a href=&quot;#一、草的俯视大小矫正&quot; class=&quot;headerlink&quot; title=&quot;一、草的俯视大小矫正&quot;&gt;&lt;/a&gt;一、草的俯视大小矫正&lt;/h1&gt;&lt;h4 id=&quot;实现方式&quot;&gt;&lt;a href=&quot;#实现方式&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/categories/TA/"/>
+    
+    
+    <category term="草地渲染" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%8D%89%E5%9C%B0%E6%B8%B2%E6%9F%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>青青草原——草的颜色渐变、AO模拟、简易透光</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/08/09/ta/grass/qing-qing-cao-yuan-cao-de-yan-se-jian-bian-ao-mo-ni-jian-yi-tou-guang/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/08/09/ta/grass/qing-qing-cao-yuan-cao-de-yan-se-jian-bian-ao-mo-ni-jian-yi-tou-guang/</id>
+    <published>2021-08-09T15:17:25.000Z</published>
+    <updated>2021-09-12T10:36:05.382Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、草的颜色渐变&quot;&gt;&lt;a href=&quot;#一、草的颜色渐变&quot; class=&quot;headerlink&quot; title=&quot;一、草的颜色渐变&quot;&gt;&lt;/a&gt;一、草的颜色渐变&lt;/h1&gt;&lt;h4 id=&quot;实现方式&quot;&gt;&lt;a href=&quot;#实现方式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/categories/TA/"/>
+    
+    
+    <category term="草地渲染" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%8D%89%E5%9C%B0%E6%B8%B2%E6%9F%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>青青草原——弯曲、震动、旋转</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/08/08/ta/grass/qing-qing-cao-yuan-wan-qu-zhen-dong-xuan-zhuan/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/08/08/ta/grass/qing-qing-cao-yuan-wan-qu-zhen-dong-xuan-zhuan/</id>
+    <published>2021-08-08T09:05:50.000Z</published>
+    <updated>2021-09-12T10:36:05.380Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、模型预处理处理&quot;&gt;&lt;a href=&quot;#一、模型预处理处理&quot; class=&quot;headerlink&quot; title=&quot;一、模型预处理处理&quot;&gt;&lt;/a&gt;一、模型预处理处理&lt;/h1&gt;&lt;h4 id=&quot;为什么需要对模型进行预处理？&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/categories/TA/"/>
+    
+    
+    <category term="草地渲染" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%8D%89%E5%9C%B0%E6%B8%B2%E6%9F%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>青青草原——概述及目录</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/08/07/ta/grass/qing-qing-cao-yuan-gai-shu-ji-mu-lu/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/08/07/ta/grass/qing-qing-cao-yuan-gai-shu-ji-mu-lu/</id>
+    <published>2021-08-07T15:47:51.000Z</published>
+    <updated>2021-09-12T13:46:16.909Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、产生的原因&quot;&gt;&lt;a href=&quot;#一、产生的原因&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/categories/TA/"/>
+    
+    
+    <category term="草地渲染" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%8D%89%E5%9C%B0%E6%B8%B2%E6%9F%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从零开始搭建 Markdown 文档编写环境</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/07/11/block/cong-ling-da-jian-markdown-wen-dang-bian-xie-huan-jing/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/07/11/block/cong-ling-da-jian-markdown-wen-dang-bian-xie-huan-jing/</id>
+    <published>2021-07-11T02:34:05.000Z</published>
+    <updated>2021-09-10T16:22:11.647Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、Markdown-编辑器-Typora-环境配置&quot;&gt;&lt;a href=&quot;#一、Markdown-编辑器-Typora-环境配置&quot; class=&quot;headerlink&quot; title=&quot;一、Markdown 编辑器 Typora</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Command" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Command/"/>
+    
+    <category term="Zero2One" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Zero2One/"/>
+    
+    <category term="Config" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Config/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从零搭建个人 Hexo 博客</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/07/10/block/cong-ling-da-jian-ge-ren-hexo-bo-ke/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/07/10/block/cong-ling-da-jian-ge-ren-hexo-bo-ke/</id>
+    <published>2021-07-10T10:43:02.000Z</published>
+    <updated>2021-09-10T16:22:11.647Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、准备工作&quot;&gt;&lt;a href=&quot;#一、准备工作&quot; class=&quot;headerlink&quot; title=&quot;一、准备工作&quot;&gt;&lt;/a&gt;一、准备工作&lt;/h1&gt;&lt;h4 id=&quot;a-下载并安装-Node-js&quot;&gt;&lt;a href=&quot;#a-下载并安装-Node-js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Command" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Command/"/>
+    
+    <category term="Zero2One" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Zero2One/"/>
+    
+    <category term="Config" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Config/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 常用命令说明</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/07/10/block/hexo-chang-yong-ming-ling-shuo-ming/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/07/10/block/hexo-chang-yong-ming-ling-shuo-ming/</id>
+    <published>2021-07-10T09:59:20.000Z</published>
+    <updated>2021-09-10T16:22:11.646Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Hexo-常用命令&quot;&gt;&lt;a href=&quot;#Hexo-常用命令&quot; class=&quot;headerlink&quot; title=&quot;Hexo 常用命令&quot;&gt;&lt;/a&gt;Hexo 常用命令&lt;/h1&gt;&lt;h4 id=&quot;新建一个-Markdown-文档&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Command" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Matery 主题使用说明</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/07/02/block/matery-zhu-ti-shi-yong-shuo-ming/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/07/02/block/matery-zhu-ti-shi-yong-shuo-ming/</id>
+    <published>2021-07-02T14:10:12.000Z</published>
+    <updated>2021-09-10T16:22:11.647Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hexo-theme-matery&quot;&gt;&lt;a href=&quot;#hexo-theme-matery&quot; class=&quot;headerlink&quot; title=&quot;hexo-theme-matery&quot;&gt;&lt;/a&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Command" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Command/"/>
+    
+    <category term="Theme" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Theme/"/>
+    
+  </entry>
+  
+</feed>
