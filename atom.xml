@@ -6,7 +6,7 @@
   <link href="https://klj35.github.io/BloodSoul.github.io/atom.xml" rel="self"/>
   
   <link href="https://klj35.github.io/BloodSoul.github.io/"/>
-  <updated>2021-09-12T15:12:15.306Z</updated>
+  <updated>2021-10-03T03:26:19.215Z</updated>
   <id>https://klj35.github.io/BloodSoul.github.io/</id>
   
   <author>
@@ -17,11 +17,245 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>傅里叶变换</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/03/ta/xin-ji-yuan/shu-xue/fu-li-xie-bian-huan/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/03/ta/xin-ji-yuan/shu-xue/fu-li-xie-bian-huan/</id>
+    <published>2021-10-03T02:03:13.000Z</published>
+    <updated>2021-10-03T03:26:19.215Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;零、-傅里叶知识结构&quot;&gt;&lt;a href=&quot;#零、-傅里叶知识结构&quot; class=&quot;headerlink&quot; title=&quot;零、 傅里叶知识结构&quot;&gt;&lt;/a&gt;零、 傅里叶知识结构&lt;/h1&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="数学" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>渲染流水线</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/02/ta/xin-ji-yuan/xuan-ran-liu-shui-xian/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/02/ta/xin-ji-yuan/xuan-ran-liu-shui-xian/</id>
+    <published>2021-10-02T02:03:25.000Z</published>
+    <updated>2021-10-03T03:19:37.770Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>mathJax 渲染数学公式</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/29/block/mathjax/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/29/block/mathjax/</id>
+    <published>2021-09-29T10:04:47.000Z</published>
+    <updated>2021-09-29T11:12:42.123Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>火焰溶解</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/29/ta/xin-ji-yuan/tan-suo/huo-yan-rong-jie/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/29/ta/xin-ji-yuan/tan-suo/huo-yan-rong-jie/</id>
+    <published>2021-09-29T07:47:20.000Z</published>
+    <updated>2021-09-29T09:45:35.684Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、最终效果&quot;&gt;&lt;a href=&quot;#一、最终效果&quot; class=&quot;headerlink&quot; title=&quot;一、最终效果&quot;&gt;&lt;/a&gt;一、最终效果&lt;/h1&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    
+    
+    <category term="探索" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%8E%A2%E7%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>向量</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/26/ta/xin-ji-yuan/shu-xue/xiang-liang/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/26/ta/xin-ji-yuan/shu-xue/xiang-liang/</id>
+    <published>2021-09-26T07:33:40.000Z</published>
+    <updated>2021-09-28T13:46:51.588Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、平面坐标点的四种解释&quot;&gt;&lt;a href=&quot;#一、平面坐标点的四种解释&quot; class=&quot;headerlink&quot; title=&quot;一、平面坐标点的四种解释&quot;&gt;&lt;/a&gt;一、平面坐标点的四种解释&lt;/h1&gt;&lt;p&gt;以下以（7, 4）为例&lt;/p&gt;
+&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="数学" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    
+    <category term="向量" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%90%91%E9%87%8F/"/>
+    
+    <category term="线性代数" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2D光照</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/22/ta/xin-ji-yuan/tan-suo/2d-guang-zhao/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/22/ta/xin-ji-yuan/tan-suo/2d-guang-zhao/</id>
+    <published>2021-09-22T05:47:01.000Z</published>
+    <updated>2021-09-29T09:00:06.238Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、制作步骤&quot;&gt;&lt;a href=&quot;#一、制作步骤&quot; class=&quot;headerlink&quot; title=&quot;一、制作步骤&quot;&gt;&lt;/a&gt;一、制作步骤&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;1.1 使用一张 Mask 控制灯光形状&lt;/strong&gt;&lt;/p&gt;
+&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    
+    
+    <category term="探索" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%8E%A2%E7%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>矩阵</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/22/ta/xin-ji-yuan/shu-xue/ju-zhen/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/22/ta/xin-ji-yuan/shu-xue/ju-zhen/</id>
+    <published>2021-09-22T02:30:31.000Z</published>
+    <updated>2021-10-01T12:37:34.571Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、矩阵的算数运算&quot;&gt;&lt;a href=&quot;#一、矩阵的算数运算&quot; class=&quot;headerlink&quot; title=&quot;一、矩阵的算数运算&quot;&gt;&lt;/a&gt;一、矩阵的算数运算&lt;/h1&gt;&lt;h3 id=&quot;1-1-矩阵的加减法&quot;&gt;&lt;a href=&quot;#1-1-矩阵的加减法&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数学" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    
+    <category term="线性代数" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    
+    <category term="矩阵" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%9F%A9%E9%98%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GamePlay</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/13/gameplay/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/13/gameplay/</id>
+    <published>2021-09-13T10:08:21.000Z</published>
+    <updated>2021-09-28T13:46:51.584Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、回合战斗技能编辑器&quot;&gt;&lt;a href=&quot;#一、回合战斗技能编辑器&quot; class=&quot;headerlink&quot; title=&quot;一、回合战斗技能编辑器&quot;&gt;&lt;/a&gt;一、回合战斗技能编辑器&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="GamePlay" scheme="https://klj35.github.io/BloodSoul.github.io/categories/GamePlay/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>shading教程网站</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/13/ta/shading-jiao-cheng-wang-zhan/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/13/ta/shading-jiao-cheng-wang-zhan/</id>
+    <published>2021-09-13T06:54:55.000Z</published>
+    <updated>2021-09-28T13:46:51.587Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Sand-shader&quot;&gt;&lt;a href=&quot;#Sand-shader&quot; class=&quot;headerlink&quot; title=&quot;Sand shader&quot;&gt;&lt;/a&gt;Sand shader&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/categories/TA/"/>
+    
+    
+    <category term="教程" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>免费资源网站收集</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/13/mian-fei-zi-yuan-wang-zhan-shou-ji/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/09/13/mian-fei-zi-yuan-wang-zhan-shou-ji/</id>
+    <published>2021-09-13T02:49:23.000Z</published>
+    <updated>2021-09-28T13:46:51.590Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、HDRI&quot;&gt;&lt;a href=&quot;#一、HDRI&quot; class=&quot;headerlink&quot; title=&quot;一、HDRI&quot;&gt;&lt;/a&gt;一、HDRI&lt;/h1&gt;&lt;p&gt;Poly Haven 地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="素材" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E7%B4%A0%E6%9D%90/"/>
+    
+    
+    <category term="免费素材" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%85%8D%E8%B4%B9%E7%B4%A0%E6%9D%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何内嵌bilibili网站链接</title>
     <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/12/block/ru-he-nei-qian-bilibili-wang-zhan-lian-jie/"/>
     <id>https://klj35.github.io/BloodSoul.github.io/2021/09/12/block/ru-he-nei-qian-bilibili-wang-zhan-lian-jie/</id>
     <published>2021-09-12T14:36:20.000Z</published>
-    <updated>2021-09-12T15:12:15.306Z</updated>
+    <updated>2021-09-28T13:46:51.581Z</updated>
     
     
       
@@ -47,7 +281,7 @@
     <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/12/block/matery-tian-jia-live2d-kan-ban-niang/"/>
     <id>https://klj35.github.io/BloodSoul.github.io/2021/09/12/block/matery-tian-jia-live2d-kan-ban-niang/</id>
     <published>2021-09-12T13:46:09.000Z</published>
-    <updated>2021-09-12T14:31:28.761Z</updated>
+    <updated>2021-09-28T13:46:51.417Z</updated>
     
     
       
@@ -72,7 +306,7 @@
     <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/12/code/kuai-su-shou-xi-matery-dai-ma/"/>
     <id>https://klj35.github.io/BloodSoul.github.io/2021/09/12/code/kuai-su-shou-xi-matery-dai-ma/</id>
     <published>2021-09-12T04:47:14.000Z</published>
-    <updated>2021-09-12T05:26:10.397Z</updated>
+    <updated>2021-09-28T13:46:51.582Z</updated>
     
     
       
@@ -97,7 +331,7 @@
     <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/11/movieclip/b-zhan-shi-pin-xia-zai/"/>
     <id>https://klj35.github.io/BloodSoul.github.io/2021/09/11/movieclip/b-zhan-shi-pin-xia-zai/</id>
     <published>2021-09-10T16:27:14.000Z</published>
-    <updated>2021-09-11T05:18:39.291Z</updated>
+    <updated>2021-09-28T13:46:51.584Z</updated>
     
     
       
@@ -123,7 +357,7 @@
     <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/10/code/zheng-ze-biao-da-shi-xue-xi/"/>
     <id>https://klj35.github.io/BloodSoul.github.io/2021/09/10/code/zheng-ze-biao-da-shi-xue-xi/</id>
     <published>2021-09-10T07:28:22.000Z</published>
-    <updated>2021-09-10T16:23:58.781Z</updated>
+    <updated>2021-09-28T13:46:51.583Z</updated>
     
     
       
@@ -148,7 +382,7 @@
     <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/10/ta/wen-li/"/>
     <id>https://klj35.github.io/BloodSoul.github.io/2021/09/10/ta/wen-li/</id>
     <published>2021-09-10T02:37:43.000Z</published>
-    <updated>2021-09-12T15:52:58.890Z</updated>
+    <updated>2021-09-28T13:46:51.589Z</updated>
     
     
       
@@ -173,7 +407,7 @@
     <link href="https://klj35.github.io/BloodSoul.github.io/2021/09/08/et-huan-jing-pei-zhi/"/>
     <id>https://klj35.github.io/BloodSoul.github.io/2021/09/08/et-huan-jing-pei-zhi/</id>
     <published>2021-09-08T14:27:05.000Z</published>
-    <updated>2021-09-12T15:39:08.914Z</updated>
+    <updated>2021-09-28T13:46:51.583Z</updated>
     
     
       
@@ -198,7 +432,7 @@
     <link href="https://klj35.github.io/BloodSoul.github.io/2021/08/28/ta/grass/qing-qing-cao-yuan-cao-de-fu-shi-jiao-zheng-da-xiao-jian-bian/"/>
     <id>https://klj35.github.io/BloodSoul.github.io/2021/08/28/ta/grass/qing-qing-cao-yuan-cao-de-fu-shi-jiao-zheng-da-xiao-jian-bian/</id>
     <published>2021-08-28T10:37:03.000Z</published>
-    <updated>2021-09-12T10:36:05.381Z</updated>
+    <updated>2021-09-28T13:46:51.586Z</updated>
     
     
       
@@ -223,7 +457,7 @@
     <link href="https://klj35.github.io/BloodSoul.github.io/2021/08/09/ta/grass/qing-qing-cao-yuan-cao-de-yan-se-jian-bian-ao-mo-ni-jian-yi-tou-guang/"/>
     <id>https://klj35.github.io/BloodSoul.github.io/2021/08/09/ta/grass/qing-qing-cao-yuan-cao-de-yan-se-jian-bian-ao-mo-ni-jian-yi-tou-guang/</id>
     <published>2021-08-09T15:17:25.000Z</published>
-    <updated>2021-09-12T10:36:05.382Z</updated>
+    <updated>2021-09-28T13:46:51.586Z</updated>
     
     
       
@@ -248,7 +482,7 @@
     <link href="https://klj35.github.io/BloodSoul.github.io/2021/08/08/ta/grass/qing-qing-cao-yuan-wan-qu-zhen-dong-xuan-zhuan/"/>
     <id>https://klj35.github.io/BloodSoul.github.io/2021/08/08/ta/grass/qing-qing-cao-yuan-wan-qu-zhen-dong-xuan-zhuan/</id>
     <published>2021-08-08T09:05:50.000Z</published>
-    <updated>2021-09-12T10:36:05.380Z</updated>
+    <updated>2021-09-28T13:46:51.585Z</updated>
     
     
       
@@ -265,141 +499,6 @@
     
     
     <category term="草地渲染" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%8D%89%E5%9C%B0%E6%B8%B2%E6%9F%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>青青草原——概述及目录</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/08/07/ta/grass/qing-qing-cao-yuan-gai-shu-ji-mu-lu/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/08/07/ta/grass/qing-qing-cao-yuan-gai-shu-ji-mu-lu/</id>
-    <published>2021-08-07T15:47:51.000Z</published>
-    <updated>2021-09-12T13:46:16.909Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;一、产生的原因&quot;&gt;&lt;a href=&quot;#一、产生的原因&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/categories/TA/"/>
-    
-    
-    <category term="草地渲染" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%8D%89%E5%9C%B0%E6%B8%B2%E6%9F%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>从零开始搭建 Markdown 文档编写环境</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/07/11/block/cong-ling-da-jian-markdown-wen-dang-bian-xie-huan-jing/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/07/11/block/cong-ling-da-jian-markdown-wen-dang-bian-xie-huan-jing/</id>
-    <published>2021-07-11T02:34:05.000Z</published>
-    <updated>2021-09-10T16:22:11.647Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;一、Markdown-编辑器-Typora-环境配置&quot;&gt;&lt;a href=&quot;#一、Markdown-编辑器-Typora-环境配置&quot; class=&quot;headerlink&quot; title=&quot;一、Markdown 编辑器 Typora</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hexo/"/>
-    
-    
-    <category term="Command" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Command/"/>
-    
-    <category term="Config" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Config/"/>
-    
-    <category term="Zero2One" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Zero2One/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>从零搭建个人 Hexo 博客</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/07/10/block/cong-ling-da-jian-ge-ren-hexo-bo-ke/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/07/10/block/cong-ling-da-jian-ge-ren-hexo-bo-ke/</id>
-    <published>2021-07-10T10:43:02.000Z</published>
-    <updated>2021-09-10T16:22:11.647Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;一、准备工作&quot;&gt;&lt;a href=&quot;#一、准备工作&quot; class=&quot;headerlink&quot; title=&quot;一、准备工作&quot;&gt;&lt;/a&gt;一、准备工作&lt;/h1&gt;&lt;h4 id=&quot;a-下载并安装-Node-js&quot;&gt;&lt;a href=&quot;#a-下载并安装-Node-js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hexo/"/>
-    
-    
-    <category term="Command" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Command/"/>
-    
-    <category term="Config" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Config/"/>
-    
-    <category term="Zero2One" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Zero2One/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo 常用命令说明</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/07/10/block/hexo-chang-yong-ming-ling-shuo-ming/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/07/10/block/hexo-chang-yong-ming-ling-shuo-ming/</id>
-    <published>2021-07-10T09:59:20.000Z</published>
-    <updated>2021-09-10T16:22:11.646Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Hexo-常用命令&quot;&gt;&lt;a href=&quot;#Hexo-常用命令&quot; class=&quot;headerlink&quot; title=&quot;Hexo 常用命令&quot;&gt;&lt;/a&gt;Hexo 常用命令&lt;/h1&gt;&lt;h4 id=&quot;新建一个-Markdown-文档&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hexo/"/>
-    
-    
-    <category term="Command" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Command/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Matery 主题使用说明</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/07/02/block/matery-zhu-ti-shi-yong-shuo-ming/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/07/02/block/matery-zhu-ti-shi-yong-shuo-ming/</id>
-    <published>2021-07-02T14:10:12.000Z</published>
-    <updated>2021-09-10T16:22:11.647Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;hexo-theme-matery&quot;&gt;&lt;a href=&quot;#hexo-theme-matery&quot; class=&quot;headerlink&quot; title=&quot;hexo-theme-matery&quot;&gt;&lt;/a&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hexo/"/>
-    
-    
-    <category term="Command" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Command/"/>
-    
-    <category term="Theme" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Theme/"/>
     
   </entry>
   
