@@ -361,12 +361,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/BloodSoul.github.io/tags/TA/">
+                                <span class="chip bg-color">TA</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/" class="post-category">
+                                新纪元
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -382,21 +395,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-10-03
+                    2021-10-24
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -419,7 +432,157 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="一、知识概念"><a href="#一、知识概念" class="headerlink" title="一、知识概念"></a>一、知识概念</h1><h3 id="1-1-其次坐标空间"><a href="#1-1-其次坐标空间" class="headerlink" title="1.1 其次坐标空间"></a>1.1 其次坐标空间</h3><p>因为平移是仿射变换，无法使用 3x3 矩阵表示，需要使用 4x4 矩阵表示，把矩阵扩展到四维空间下进行统一表示旋转、平移、缩放，这个四维空间叫 <strong>齐次坐标空间</strong> </p>
+<h4 id="1-1-1-常见变换类型的特性"><a href="#1-1-1-常见变换类型的特性" class="headerlink" title="1.1.1 常见变换类型的特性"></a>1.1.1 常见变换类型的特性</h4><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022141612240.png" alt="image-20211022141612240" style="zoom:80%;">  
+
+<p>Tip：</p>
+<ol>
+<li>注意旋转矩阵和镜像矩阵是正交矩阵</li>
+<li> <strong>正交矩阵的逆矩阵等于它的转置矩阵</strong> ，可以避免复杂的求逆矩阵过程，就可以直接得到逆矩阵</li>
+</ol>
+<h4 id="1-1-2-点和方向矢量扩展到四维的区别"><a href="#1-1-2-点和方向矢量扩展到四维的区别" class="headerlink" title="1.1.2 点和方向矢量扩展到四维的区别"></a>1.1.2 点和方向矢量扩展到四维的区别</h4><p>点扩展到四维空间时，需要指定 <strong>w 的分量为 1</strong></p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022143609742.png" alt="image-20211022143609742" style="zoom:80%;"> 
+
+<p>方向矢量扩展到四维空间时，需要<strong>指定 w 的分量为 0</strong> ，方向矢量不收平移影响</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022143552668.png" alt="image-20211022143552668" style="zoom:80%;"> 
+
+<h3 id="1-2-变换矩阵"><a href="#1-2-变换矩阵" class="headerlink" title="1.2 变换矩阵"></a>1.2 变换矩阵</h3><h4 id="1-2-1-平移矩阵"><a href="#1-2-1-平移矩阵" class="headerlink" title="1.2.1 平移矩阵"></a>1.2.1 平移矩阵</h4><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022143609742.png" alt="image-20211022143609742" style="zoom:80%;"> 
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022143552668.png" alt="image-20211022143552668" style="zoom:80%;"> 
+平移矩阵的逆矩阵
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022143952071.png" alt="image-20211022143952071"> 
+
+<h4 id="1-2-2-缩放矩阵"><a href="#1-2-2-缩放矩阵" class="headerlink" title="1.2.2 缩放矩阵"></a>1.2.2 缩放矩阵</h4><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022144420597.png" alt="image-20211022144420597" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022144435954.png" alt="image-20211022144435954" style="zoom:80%;"> 
+
+<p>缩放矩阵的逆矩阵</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022144514191.png" alt="image-20211022144514191" style="zoom:80%;"> 
+
+<p>Tip:</p>
+<ol>
+<li>kx、ky、kz三个参数相等时为统一缩放，不等时为非统一缩放</li>
+<li>非统一缩放会改变模型相关的角度和比例，会导致部分信息变换错误（如：法线，直接运用顶点变换矩阵会导致错误）</li>
+<li>如果我们希望在任意方向上进行缩放，就需要使用一个复合变换。其中一种方法的主要思想就是，先将缩放轴变换成标准坐标轴，然后进行沿坐标轴的缩放，再使用逆变换得到原来的缩放轴朝向</li>
+</ol>
+<h4 id="1-2-3-旋转矩阵"><a href="#1-2-3-旋转矩阵" class="headerlink" title="1.2.3 旋转矩阵"></a>1.2.3 旋转矩阵</h4><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022150418879.png" alt="image-20211022150418879" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022150432666.png" alt="image-20211022150432666" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022150450219.png" alt="image-20211022150450219" style="zoom:80%;"> 
+
+<p>Unity 中的旋转顺序为：zxy，详细如下图</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022150858614.png" alt="image-20211022150858614" style="zoom:80%;"> 
+
+<h3 id="1-3-复合变换顺序"><a href="#1-3-复合变换顺序" class="headerlink" title="1.3 复合变换顺序"></a>1.3 复合变换顺序</h3><p>Unity 约定，复合变换的顺序为：缩放 -&gt; 旋转 -&gt; 平移</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022151421564.png" alt="image-20211022151421564" style="zoom:80%;"> 
+
+<p>原因：</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022151613477.png" alt="image-20211022151613477">  
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022151649125.png" alt="image-20211022151649125" style="zoom: 67%;"> 
+
+<h3 id="1-4-坐标空间变换"><a href="#1-4-坐标空间变换" class="headerlink" title="1.4 坐标空间变换"></a>1.4 坐标空间变换</h3><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022165258751.png" alt="image-20211022165258751">
+
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022165326875.png" alt="image-20211022165326875"></p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022165343516.png" alt="image-20211022165343516"></p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022165400871.png" alt="image-20211022165400871"> </p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022165434146.png" alt="image-20211022165434146"></p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022165456049.png" alt="image-20211022165456049"></p>
+<p><strong>从A空间变换到B空间的方法：</strong></p>
+<ol>
+<li>求出B的三个坐标轴在A空间下的表示，然后就可以利用该表示得出 A-B空间的变换矩阵（上述介绍内容）</li>
+<li>变换整个坐标空间B，使与坐标空间A的原点重合，坐标轴对齐，那么整个变换矩阵就是 从A-&gt;B空间变换的矩阵（下述介绍的 世界空间 -&gt; 观察空间的变换）</li>
+</ol>
+<h3 id="1-5-法线变换"><a href="#1-5-法线变换" class="headerlink" title="1.5 法线变换"></a>1.5 法线变换</h3><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022184640256.png" alt="image-20211022184640256" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022184659496.png" alt="image-20211022184659496" style="zoom:80%;"> 
+
+<p>BuildIn 中的变换实现：</p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022184812583.png" alt="image-20211022184812583"></p>
+<p>URP 中的变换实现：</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022184725030.png" alt="image-20211022184725030" style="zoom:80%;"> 
+
+<h1 id="二、渲染流水线（Unity"><a href="#二、渲染流水线（Unity" class="headerlink" title="二、渲染流水线（Unity)"></a>二、渲染流水线（Unity)</h1><h3 id="2-1-渲染流水线简易图"><a href="#2-1-渲染流水线简易图" class="headerlink" title="2.1 渲染流水线简易图"></a>2.1 渲染流水线简易图</h3><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022170538292.png" alt="image-20211022170538292" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022170605270.png" alt="image-20211022170605270" style="zoom:80%;"> 
+
+ <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="渲染流程图" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022170948573.png" alt="image-20211022170948573"> 
+
+<p>URP 流程：</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/URP%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="URP渲染流程图">  
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022184203976.png" alt="image-20211022184203976" style="zoom:50%;"> 
+
+
+
+<h3 id="2-2-模型空间到世界空间（M矩阵）"><a href="#2-2-模型空间到世界空间（M矩阵）" class="headerlink" title="2.2 模型空间到世界空间（M矩阵）"></a>2.2 模型空间到世界空间（M矩阵）</h3><p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022171241957.png" alt="image-20211022171241957"> </p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022171321296.png" alt="image-20211022171321296" style="zoom:80%;"> 
+
+<p><strong>M</strong> 矩阵是由 Transform 组件信息的得来的</p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022171719063.png" alt="image-20211022171719063"></p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022171745574.png" alt="image-20211022171745574"></p>
+<h3 id="2-3-世界空间到观察空间（V矩阵）"><a href="#2-3-世界空间到观察空间（V矩阵）" class="headerlink" title="2.3 世界空间到观察空间（V矩阵）"></a>2.3 世界空间到观察空间（V矩阵）</h3><p>观察空间时右手坐标系</p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022172239893.png" alt="image-20211022172239893"></p>
+<p>在 OpenGL 图形库中，z 轴方向与相机的指向相反，形成右手坐标系</p>
+<p>在 Direct3D 图形库中，z 轴方向与相机的指向相同，形成左手坐标系</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022172829452.png" alt="image-20211022172829452">
+
+<p>求观察矩阵的顺序为根据 Transform 组件：</p>
+<ol>
+<li>反向平移</li>
+<li>反向进行zxy旋转</li>
+<li>反向缩放</li>
+</ol>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022173423975.png" alt="image-20211022173423975" style="zoom:150%;">
+
+<h3 id="2-4-观察空间到投影空间（P矩阵）"><a href="#2-4-观察空间到投影空间（P矩阵）" class="headerlink" title="2.4 观察空间到投影空间（P矩阵）"></a>2.4 观察空间到投影空间（P矩阵）</h3><p>投影空间的两个目的：</p>
+<ol>
+<li>为后面真正的投影做准备，即齐次除法</li>
+<li>对 x、y、z进行缩放</li>
+</ol>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022173917737.png" alt="image-20211022173917737"></p>
+<h4 id="2-4-1-透视投影"><a href="#2-4-1-透视投影" class="headerlink" title="2.4.1 透视投影"></a>2.4.1 透视投影</h4><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022180936847.png" alt="image-20211022180936847" style="zoom: 67%;"> 
+
+<p> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022182208386.png" alt="image-20211022182208386"> </p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022182513079.png" alt="image-20211022182513079"> </p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022182620218.png" alt="image-20211022182620218"> </p>
+<h4 id="2-4-2-正交投影"><a href="#2-4-2-正交投影" class="headerlink" title="2.4.2 正交投影"></a>2.4.2 正交投影</h4><p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022182856797.png" alt="image-20211022182856797"> </p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022182918280.png" alt="image-20211022182918280"> 
+
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022183004904.png" alt="image-20211022183004904"> </p>
+<h4 id="2-4-3-知识扩展"><a href="#2-4-3-知识扩展" class="headerlink" title="2.4.3 知识扩展"></a>2.4.3 知识扩展</h4><p>因为投影空间对 x、y、z进行了缩放操作，而且这个不是线性的</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022174625241.png" alt="image-20211022174625241" style="zoom: 67%;"> 
+
+<p>深度差值不是线性，而与深度的倒数成线性</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022174703574.png" alt="image-20211022174703574" style="zoom:50%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022174721704.png" alt="image-20211022174721704" style="zoom:67%;"> 
+
+<p>顶点光照颜色，顶点颜色、顶点纹理坐标，在进行光栅化差值时，想要获得正确结果的计算方法： </p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022174739790.png" alt="image-20211022174739790" style="zoom: 67%;">  
+
+<h4 id="2-4-4-延伸阅读"><a href="#2-4-4-延伸阅读" class="headerlink" title="2.4.4 延伸阅读"></a>2.4.4 延伸阅读</h4><p>3D 图形光栅化的透视校正问题？<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/40624282">https://www.zhihu.com/question/40624282</a></p>
+<p>计算机图形学六：透视矫正插值和图形渲染管线总结 <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/144331875">https://zhuanlan.zhihu.com/p/144331875</a></p>
+<h3 id="2-5-归一化的设备坐标（NDC-）"><a href="#2-5-归一化的设备坐标（NDC-）" class="headerlink" title="2.5 归一化的设备坐标（NDC ）"></a>2.5 归一化的设备坐标（NDC ）</h3><p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022183352387.png" alt="image-20211022183352387"> </p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022182808720.png" alt="image-20211022182808720" style="zoom:67%;"> 
+
+<h4 id="2-5-1-透视投影的-NDC"><a href="#2-5-1-透视投影的-NDC" class="headerlink" title="2.5.1 透视投影的 NDC"></a>2.5.1 透视投影的 NDC</h4><p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022183815967.png" alt="image-20211022183815967"></p>
+<h4 id="2-5-2-正交投影的-NDC"><a href="#2-5-2-正交投影的-NDC" class="headerlink" title="2.5.2 正交投影的 NDC"></a>2.5.2 正交投影的 NDC</h4><p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022183847805.png" alt="image-20211022183847805"></p>
+<h3 id="2-6-屏幕映射"><a href="#2-6-屏幕映射" class="headerlink" title="2.6 屏幕映射"></a>2.6 屏幕映射</h3><p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022184117321.png" alt="image-20211022184117321"></p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022184133797.png" alt="image-20211022184133797"></p>
+<h3 id="2-7-Unity-中的特殊矩阵作用"><a href="#2-7-Unity-中的特殊矩阵作用" class="headerlink" title="2.7 Unity 中的特殊矩阵作用"></a>2.7 Unity 中的特殊矩阵作用</h3><p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022185255400.png" alt="image-20211022185255400"></p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022185314212.png" alt="image-20211022185314212" style="zoom: 50%;"> 
+
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022185544200.png" alt="image-20211022185544200"></p>
+<p><strong>Tip:</strong></p>
+<p>C# 中默认构建的矩阵是列优先的，而shader中构建的矩阵，默认是行优先的</p>
+<p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211022185823407.png" alt="image-20211022185823407"> </p>
+<p>延伸阅读</p>
+<p>变换矩阵 <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/93022039">https://zhuanlan.zhihu.com/p/93022039</a></p>
+
                 
             </div>
             <hr/>
@@ -482,7 +645,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/BloodSoul.github.io/tags/TA/">
+                                    <span class="chip bg-color">TA</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -677,8 +844,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/BloodSoul.github.io/categories/%E6%95%B0%E5%AD%A6/" class="post-category">
-                                    数学
+                            <a href="/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/" class="post-category">
+                                    新纪元
                                 </a>
                             
                             
@@ -688,8 +855,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/BloodSoul.github.io/tags/%E6%96%B0%E7%BA%AA%E5%85%83/">
-                        <span class="chip bg-color">新纪元</span>
+                    <a href="/BloodSoul.github.io/tags/%E6%95%B0%E5%AD%A6/">
+                        <span class="chip bg-color">数学</span>
                     </a>
                     
                 </div>
@@ -703,19 +870,19 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/BloodSoul.github.io/2021/09/29/block/mathjax/">
+                <a href="/BloodSoul.github.io/2021/09/29/ta/xin-ji-yuan/tan-suo/huo-yan-rong-jie/">
                     <div class="card-image">
                         
                         
-                        <img src="/BloodSoul.github.io/medias/featureimages/13.jpg" class="responsive-img" alt="mathJax 渲染数学公式">
+                        <img src="/BloodSoul.github.io/medias/featureimages/4.jpg" class="responsive-img" alt="火焰溶解">
                         
-                        <span class="card-title">mathJax 渲染数学公式</span>
+                        <span class="card-title">火焰溶解</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            火焰溶解效果
                         
                     </div>
                     <div class="publish-info">
@@ -724,11 +891,23 @@
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            血魂S
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/" class="post-category">
+                                    新纪元
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/BloodSoul.github.io/tags/%E6%8E%A2%E7%B4%A2/">
+                        <span class="chip bg-color">探索</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -912,7 +1091,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">29.5k</span>&nbsp;字
+                class="white-color">36k</span>&nbsp;字
             
             
             
