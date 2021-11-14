@@ -395,14 +395,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-10-24
+                    2021-11-13
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    182
+                    330
                 </div>
                 
 
@@ -451,6 +451,22 @@ Gamma-&gt;Linear(RT Shader 写入时)-&gt;Gamma(系统写入时)-Linear(其他sh
 <ol>
 <li><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211020110702104.png" alt="image-20211020110701185" style="zoom:80%;"> </li>
 <li><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211020111252815.png" alt="image-20211020111252815" style="zoom:80%;"> </li>
+</ol>
+</li>
+<li><p>unity采样unity_SpecCube0得到UnityBlackCube（黑色）的问题，天空盒的贴图需要烘焙之后才有数据，所以要先烘焙才能用。</p>
+<p>​    <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211025113724301.png" alt="image-20211025113724301" style="zoom: 50%;"> </p>
+<p>​    <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211025113754796.png" alt="image-20211025113754796" style="zoom: 50%;">  </p>
+<p>​    <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211025113913172.png" alt="image-20211025113913172" style="zoom:67%;"> </p>
+</li>
+<li><p>模型切线的w记录是构造副法线是是否需要翻转，原因是在建模软件中使用镜像建模时，部分切线需要翻转而部分不需要翻转</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211025194858229.png" alt="image-20211025194858229" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211025194907116.png" alt="image-20211025194907116" style="zoom:80%;"> </li>
+<li><p>使用抗锯齿时，屏幕UV不同平台的差异会出现，需要手动处理</p>
+</li>
+<li><p>Attributes 中的标签，必须使用全大写，不然的话，在Unity 中是正常的，在真机上会拿不到数据，变黑</p>
+<ol>
+<li><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211102161546422.png" alt="image-20211102161546422" style="zoom:80%;"> </li>
 </ol>
 </li>
 </ol>
@@ -967,7 +983,7 @@ Gamma-&gt;Linear(RT Shader 写入时)-&gt;Gamma(系统写入时)-Linear(其他sh
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">36k</span>&nbsp;字
+                class="white-color">42.8k</span>&nbsp;字
             
             
             

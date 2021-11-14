@@ -363,6 +363,14 @@
                     
                     <div class="article-tag">
                         
+                            <a href="/BloodSoul.github.io/tags/TA/">
+                                <span class="chip bg-color">TA</span>
+                            </a>
+                        
+                            <a href="/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
+                                <span class="chip bg-color">渲染基础知识</span>
+                            </a>
+                        
                             <a href="/BloodSoul.github.io/tags/Texture/">
                                 <span class="chip bg-color">Texture</span>
                             </a>
@@ -395,7 +403,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-10-24
+                    2021-11-13
                 </div>
                 
 
@@ -560,6 +568,8 @@
 <li><strong>压缩比</strong>：通常以比特率或每像素的平均比特数 (bits per pixel, bpp) 表示，常见的为 2~8bpp。一般 RGB 原生纹理的像素指 24 位，4bpp 表示每像素占4位，所以也可以认为 4bpp 表示压缩比为6:1。</li>
 </ul>
 <h3 id="为什么我们不使用-png、jpg-这类常见的压缩格式？"><a href="#为什么我们不使用-png、jpg-这类常见的压缩格式？" class="headerlink" title="为什么我们不使用 png、jpg 这类常见的压缩格式？"></a>为什么我们不使用 png、jpg 这类常见的压缩格式？</h3><p>尽管像 jpg、png 的压缩率很高，但并不适合纹理，主要问题是<strong>不支持像素的随机访问</strong>，这对 GPU 相当不友好，GPU 渲染时只使用需要的纹理部分，我们总不可能为了访问某个像素去解码整张纹理吧？不知道顺序，也不确定相邻的三角形是否在纹理上采样也相邻，很难有优化。这类格式更适合下载传输以及减少磁盘空间而使用。</p>
+<p><strong>Unity支持的所有压缩格式及推荐</strong></p>
+<p><a target="_blank" rel="noopener" href="https://docs.unity3d.com/cn/2018.4/Manual/class-TextureImporterOverride.html">https://docs.unity3d.com/cn/2018.4/Manual/class-TextureImporterOverride.html</a></p>
 <h3 id="常见纹理压缩格式"><a href="#常见纹理压缩格式" class="headerlink" title="常见纹理压缩格式"></a>常见纹理压缩格式</h3><h3 id="ETC"><a href="#ETC" class="headerlink" title="ETC"></a>ETC</h3><p>ETC（Ericsson Texture Compression）<strong>最初为移动设备开发，如今它是安卓的标准压缩方案</strong>，ETC1在OpenGL和OpenGL ES中都有支持。</p>
 <p>其原理简单来说，是将4x4 的像素块编码为2x4或4x2像素的两个块的方法，每个块指定一个基色，每个像素的颜色通过一个编码为相对于这些基色偏移的灰度值确定。</p>
 <p>具体来说，ETC1每4x4像素块编码为64位的字节数据，每一个像素块又分为两个2x4子块（由一个“flip”位控制水平或竖直划分），每个子块包含一个3位的修饰表索引（modifier table index）和一个基本颜色值，这两个颜色值要么是2*R4G4B4要么是R5G5B5+R3G3B3（由一个“ diff”位控制是哪一种）。</p>
@@ -659,7 +669,7 @@ color3 = base_color + RGB(modifier3, modifier3, modifier3)<span aria-hidden="tru
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://klj35.github.io/BloodSoul.github.io/BloodSoul.github.io/2021/09/10/ta/xin-ji-yuan/wen-li/">https://klj35.github.io/BloodSoul.github.io/BloodSoul.github.io/2021/09/10/ta/xin-ji-yuan/wen-li/</a>
+                    <a href="https://klj35.github.io/BloodSoul.github.io/BloodSoul.github.io/2021/09/10/ta/xin-ji-yuan/xuan-ran-ji-chu-zhi-shi/wen-li/">https://klj35.github.io/BloodSoul.github.io/BloodSoul.github.io/2021/09/10/ta/xin-ji-yuan/xuan-ran-ji-chu-zhi-shi/wen-li/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -696,6 +706,14 @@ color3 = base_color + RGB(modifier3, modifier3, modifier3)<span aria-hidden="tru
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
+                            
+                                <a href="/BloodSoul.github.io/tags/TA/">
+                                    <span class="chip bg-color">TA</span>
+                                </a>
+                            
+                                <a href="/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
+                                    <span class="chip bg-color">渲染基础知识</span>
+                                </a>
                             
                                 <a href="/BloodSoul.github.io/tags/Texture/">
                                     <span class="chip bg-color">Texture</span>
@@ -905,6 +923,10 @@ color3 = base_color + RGB(modifier3, modifier3, modifier3)<span aria-hidden="tru
                 </div>
                 
                 <div class="card-action article-tags">
+                    
+                    <a href="/BloodSoul.github.io/tags/Code/">
+                        <span class="chip bg-color">Code</span>
+                    </a>
                     
                     <a href="/BloodSoul.github.io/tags/%E7%B2%BE%E7%A1%AE%E6%90%9C%E7%B4%A2/">
                         <span class="chip bg-color">精确搜索</span>
@@ -1142,7 +1164,7 @@ color3 = base_color + RGB(modifier3, modifier3, modifier3)<span aria-hidden="tru
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">36k</span>&nbsp;字
+                class="white-color">42.8k</span>&nbsp;字
             
             
             

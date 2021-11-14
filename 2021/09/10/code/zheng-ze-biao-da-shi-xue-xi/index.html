@@ -363,6 +363,10 @@
                     
                     <div class="article-tag">
                         
+                            <a href="/BloodSoul.github.io/tags/Code/">
+                                <span class="chip bg-color">Code</span>
+                            </a>
+                        
                             <a href="/BloodSoul.github.io/tags/%E7%B2%BE%E7%A1%AE%E6%90%9C%E7%B4%A2/">
                                 <span class="chip bg-color">精确搜索</span>
                             </a>
@@ -395,14 +399,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-09-28
+                    2021-11-14
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    9.8k
+                    9.9k
                 </div>
                 
 
@@ -1239,6 +1243,17 @@ Who kept all of his cash in a bucket.<span aria-hidden="true" class="line-number
 <li><p>用于匹配 ![xxx]： <strong>![.+]</strong></p>
 </li>
 </ul>
+<h1 id="七、实践心得"><a href="#七、实践心得" class="headerlink" title="七、实践心得"></a>七、实践心得</h1><p>在做 Shader评估工具时，需要匹配所使用的 Sin 方法</p>
+<p>匹配 sin(xx); 的思路</p>
+<p>1、先使用 \b 来匹配单词的开始或结尾</p>
+<p>2、使用 sin 来匹配主题内容</p>
+<p>4、使用 ( 来匹配 “(”,来排除后面跟其他字母的情况</p>
+<p>3、因为sin 和（）中间可以有任意多个空格，所以使用 \s 来匹配一个空格，后面跟上 * 来匹配没有空格或者有任意个空格</p>
+<p>4、最终如下：</p>
+<pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">\bsin\s*\(<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211112112930034.png" alt="image-20211112112930034" style="zoom:67%;"> 
+
 
                 
             </div>
@@ -1302,6 +1317,10 @@ Who kept all of his cash in a bucket.<span aria-hidden="true" class="line-number
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
+                            
+                                <a href="/BloodSoul.github.io/tags/Code/">
+                                    <span class="chip bg-color">Code</span>
+                                </a>
                             
                                 <a href="/BloodSoul.github.io/tags/%E7%B2%BE%E7%A1%AE%E6%90%9C%E7%B4%A2/">
                                     <span class="chip bg-color">精确搜索</span>
@@ -1527,7 +1546,7 @@ Who kept all of his cash in a bucket.<span aria-hidden="true" class="line-number
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/BloodSoul.github.io/2021/09/10/ta/xin-ji-yuan/wen-li/">
+                <a href="/BloodSoul.github.io/2021/09/10/ta/xin-ji-yuan/xuan-ran-ji-chu-zhi-shi/wen-li/">
                     <div class="card-image">
                         
                         
@@ -1560,6 +1579,14 @@ Who kept all of his cash in a bucket.<span aria-hidden="true" class="line-number
                 </div>
                 
                 <div class="card-action article-tags">
+                    
+                    <a href="/BloodSoul.github.io/tags/TA/">
+                        <span class="chip bg-color">TA</span>
+                    </a>
+                    
+                    <a href="/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
+                        <span class="chip bg-color">渲染基础知识</span>
+                    </a>
                     
                     <a href="/BloodSoul.github.io/tags/Texture/">
                         <span class="chip bg-color">Texture</span>
@@ -1748,7 +1775,7 @@ Who kept all of his cash in a bucket.<span aria-hidden="true" class="line-number
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">36k</span>&nbsp;字
+                class="white-color">42.8k</span>&nbsp;字
             
             
             

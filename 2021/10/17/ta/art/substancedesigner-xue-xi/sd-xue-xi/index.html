@@ -399,21 +399,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-10-24
+                    2021-10-31
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    195
+                    608
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -445,6 +445,84 @@
 <p>翼虎网 Substance Designer 2020-快速入门到案例实战教学</p>
 <p><a target="_blank" rel="noopener" href="https://www.yiihuu.com/a_9548.html">https://www.yiihuu.com/a_9548.html</a></p>
 <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211024115732813.png" alt="image-20211024115732813" style="zoom:80%;"> 
+
+<h3 id="一、资源导入导出"><a href="#一、资源导入导出" class="headerlink" title="一、资源导入导出"></a>一、资源导入导出</h3><p>SD 的 import 只是复制文件，不会实时更新</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211026212607282.png" alt="image-20211026212607282" style="zoom:67%;"> 
+
+<p>Link 会实时跟随原始图片变化</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211026212641082.png" alt="image-20211026212641082" style="zoom:67%;"> 
+
+<p>发布</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211026212656997.png" alt="image-20211026212656997" style="zoom: 80%;"> 
+
+<h3 id="二、节点操控"><a href="#二、节点操控" class="headerlink" title="二、节点操控"></a>二、节点操控</h3><p>选择一个节点，按 返回键 便会删除这个节点，但保留原来的连线</p>
+<p>选择一个线，新建的节点会默认连接</p>
+<p>选择两个线，按 x 键可以交换两个的连接顺序</p>
+<p>按 shift 可以同时移动多个节点到另一个节点上</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211030120052053.png" alt="image-20211030120052053" style="zoom:67%;"> 
+
+
+
+<p>灰色的点点代表节点是一个灰色的输入或输出</p>
+<p>黄色的点点代表节点是一个RGB输入或输出</p>
+<p>灰度和RGB相连接时会显示红色虚线，表示连接错误</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211026213216446.png" alt="image-20211026213216446" style="zoom:67%;"> 
+
+<p>可以使用 grayscale conversion 节点进行 RGB 转灰度</p>
+<p>可以使用 gradient map 进行 灰度转 RGB</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211026212737639.png" alt="image-20211026212737639" style="zoom:80%;"> 
+
+<p>线的粗细代表位深度，线越粗，代表越大</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211026214136502.png" alt="image-20211026214136502" style="zoom:67%;"> 
+
+<p>选择一个节点，按D键进行折叠和展开</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211026215255103.png" alt="image-20211026215255103" style="zoom:80%;"> 
+
+<p>可以通过选择节点创建 Graph 节点，使用 input 和 output 进行自定义节点</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211026220840199.png" alt="image-20211026220840199" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211026220943677.png" alt="image-20211026220943677" style="zoom:80%;"> 
+
+<h3 id="三、2D-视图"><a href="#三、2D-视图" class="headerlink" title="三、2D 视图"></a>三、2D 视图</h3><p>节点上的棋盘格图标代表着在2d视图中显示，需要双击</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211028222714547.png" alt="image-20211028222714547" style="zoom:80%;"> 
+
+<p>文档图标代表属性栏当前显示的节点属性</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211028222837528.png" alt="image-20211028222837528" style="zoom:67%;"> 
+
+<p>2D窗口</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211028231345241.png" alt="image-20211028231345241"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211028232531579.png" alt="image-20211028232531579"> 
+
+<h3 id="四、3D-视图"><a href="#四、3D-视图" class="headerlink" title="四、3D 视图"></a>四、3D 视图</h3><p>移动：鼠标中键、Ctrl+鼠标右键</p>
+<p>缩放：鼠标滚轮、鼠标右键上下滑动</p>
+<p>旋转：鼠标左键</p>
+<p>旋转环境：shift+Ctrl+鼠标右键</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211030094950556.png" alt="image-20211030094950556" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211030094655455.png" alt="image-20211030094655455" style="zoom:80%;">  
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211030095138279.png" alt="image-20211030095138279" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211030095124178.png" alt="image-20211030095124178" style="zoom:80%;"> 
+
+<p>在3D窗口中预览视图</p>
+<p>方法一：点击节点右键</p>
+<p>方法二：右键节点图标，然后拖拽到视图</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211030095446126.png" alt="image-20211030095446126" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211030095522052.png" alt="image-20211030095522052" style="zoom:80%;"> 
+
+<h3 id="五、基本材质节点"><a href="#五、基本材质节点" class="headerlink" title="五、基本材质节点"></a>五、基本材质节点</h3><p>BaseMaterial</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211030113217431.png" alt="image-20211030113217431" style="zoom:67%;"> 
+
+<p>启用对应输入节点</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211030113245264.png" alt="image-20211030113245264" style="zoom:67%;"> 
+
+<p>一键创建输出节点</p>
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211030113355501.png" alt="image-20211030113355501" style="zoom:80%;"> 
+
+<img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20211030113517298.png" alt="image-20211030113517298" style="zoom:67%;"> 
 
                 
             </div>
@@ -962,7 +1040,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">36k</span>&nbsp;字
+                class="white-color">42.8k</span>&nbsp;字
             
             
             
