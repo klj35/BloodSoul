@@ -1,0 +1,1334 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Vim编辑操作, 血魂S">
+    <meta name="description" content="万物皆可萌！">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Vim编辑操作 | 血魂S</title>
+    <link rel="icon" type="image/png" href="/BloodSoul.github.io/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/BloodSoul.github.io/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/BloodSoul.github.io/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/BloodSoul.github.io/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/BloodSoul.github.io/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/BloodSoul.github.io/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/BloodSoul.github.io/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/BloodSoul.github.io/css/my.css">
+
+    <script src="/BloodSoul.github.io/libs/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/klj35/live2d-widget@v0.9.1/autoload.js"></script>
+    
+<meta name="generator" content="Hexo 5.4.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/BloodSoul.github.io/atom.xml" title="血魂S" type="application/atom+xml">
+</head>
+
+
+
+   <style>
+    body{
+       background-image: url(https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/wallhaven-837yey_2560x1440.jpg);
+       background-repeat:no-repeat;
+       background-size:cover;
+       background-attachment:fixed;
+    }
+</style>
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/BloodSoul.github.io/" class="waves-effect waves-light">
+                    
+                    <img src="/BloodSoul.github.io/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">血魂S</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/BloodSoul.github.io/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/BloodSoul.github.io/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/BloodSoul.github.io/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/BloodSoul.github.io/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/BloodSoul.github.io/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/BloodSoul.github.io/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/BloodSoul.github.io/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">血魂S</div>
+        <div class="logo-desc">
+            
+            万物皆可萌！
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/BloodSoul.github.io/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/BloodSoul.github.io/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/BloodSoul.github.io/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/BloodSoul.github.io/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/BloodSoul.github.io/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/BloodSoul.github.io/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+<script src="/BloodSoul.github.io/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/BloodSoul.github.io/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/BloodSoul.github.io/medias/featureimages/6.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Vim编辑操作</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/BloodSoul.github.io/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/BloodSoul.github.io/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/">
+                                <span class="chip bg-color">命令行</span>
+                            </a>
+                        
+                            <a href="/BloodSoul.github.io/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/">
+                                <span class="chip bg-color">版本管理</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/BloodSoul.github.io/categories/AssistTool/" class="post-category">
+                                AssistTool
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-12-21
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2021-12-31
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    2.6k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    9 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/BloodSoul.github.io/libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="Vim-常用操作"><a href="#Vim-常用操作" class="headerlink" title="Vim 常用操作"></a>Vim 常用操作</h1><p>:</p>
+<blockquote>
+<p>退出命令是，按<code>ESC</code>键 跳到命令模式，然后输入<code>:q</code>（不保存）或者<code>:wq</code>（保存） 退出。</p>
+</blockquote>
+<hr>
+<h3 id="更多退出命令："><a href="#更多退出命令：" class="headerlink" title="更多退出命令："></a>更多退出命令：</h3><blockquote>
+<p>:w 保存文件但不退出vi<br> :w file 将修改另外保存到file中，不退出vi<br> :w! 强制保存，不推出vi<br> :wq 保存文件并退出vi<br> :wq! 强制保存文件，并退出vi<br> :q 不保存文件，退出vi<br> :q! 不保存文件，强制退出vi<br> :e! 放弃所有修改，从上次保存文件开始再编辑命令历史</p>
+</blockquote>
+<p>以:和/开头的命令都有历史纪录，可以首先键入:或/然后按上下箭头来选择某个历史命令。</p>
+<h3 id="启动vim"><a href="#启动vim" class="headerlink" title="启动vim"></a>启动vim</h3><p>在命令行窗口中输入以下命令即可</p>
+<blockquote>
+<p>vim 直接启动vim</p>
+</blockquote>
+<blockquote>
+<p>vim filename 打开vim并创建名为filename的文件</p>
+</blockquote>
+<h3 id="文件命令"><a href="#文件命令" class="headerlink" title="文件命令"></a>文件命令</h3><p>打开单个文件</p>
+<blockquote>
+<p>vim file</p>
+</blockquote>
+<p>同时打开多个文件</p>
+<blockquote>
+<p>vim file1 file2 file3 …</p>
+</blockquote>
+<p>在vim窗口中打开一个新文件</p>
+<blockquote>
+<p>:open file</p>
+</blockquote>
+<p>在新窗口中打开文件</p>
+<blockquote>
+<p>:split file</p>
+</blockquote>
+<p>切换到下一个文件</p>
+<blockquote>
+<p>:bn</p>
+</blockquote>
+<p>切换到上一个文件</p>
+<blockquote>
+<p>:bp</p>
+</blockquote>
+<p>查看当前打开的文件列表，当前正在编辑的文件会用[]括起来。</p>
+<blockquote>
+<p>:args</p>
+</blockquote>
+<p>打开远程文件，比如ftp或者share folder</p>
+<blockquote>
+<p>:e <a target="_blank" rel="noopener" href="https://link.jianshu.com/?t=ftp://192.168.10.76/abc.txt">ftp://192.168.10.76/abc.txt</a></p>
+</blockquote>
+<blockquote>
+<p>:e \qadrive\test\1.txt</p>
+</blockquote>
+<h3 id="vim的模式"><a href="#vim的模式" class="headerlink" title="vim的模式"></a>vim的模式</h3><blockquote>
+<p>正常模式（按Esc或Ctrl+[进入） 左下角显示文件名或为空<br> 插入模式（按i键进入） 左下角显示–INSERT–<br> 可视模式（不知道如何进入） 左下角显示–VISUAL–</p>
+</blockquote>
+<h3 id="导-括号匹配令"><a href="#导-括号匹配令" class="headerlink" title="导% 括号匹配令"></a>导% 括号匹配令</h3><blockquote>
+<p>i 在当前位置生前插入<br> I 在当前行首插入<br> a 在当前位置后插入<br> A 在当前行尾插入<br> o 在当前行之后插入一行<br> O 在当前行之前插入一行</p>
+</blockquote>
+<h3 id="查找命令"><a href="#查找命令" class="headerlink" title="查找命令"></a>查找命令</h3><blockquote>
+<p>/text　　查找text，按n健查找下一个，按N健查找前一个。<br> ?text　　查找text，反向查找，按n健查找下一个，按N健查找前一个。</p>
+</blockquote>
+<p>vim中有一些特殊字符在查找时需要转义　　.*[]^%/?~$</p>
+<blockquote>
+<p>:set ignorecase　　忽略大小写的查找<br> :set noignorecase　　不忽略大小写的查找</p>
+</blockquote>
+<p>查找很长的词，如果一个词很长，键入麻烦，可以将光标移动到该词上，按*或#键即可以该单词进行搜索，相当于/搜索。而#命令相当于?搜索。</p>
+<blockquote>
+<p>:set hlsearch　　高亮搜索结果，所有结果都高亮显示，而不是只显示一个匹配。<br> :set nohlsearch　　关闭高亮搜索显示<br> :nohlsearch　　关闭当前的高亮显示，如果再次搜索或者按下n或N键，则会再次高亮。<br> :set incsearch　　逐步搜索模式，对当前键入的字符进行搜索而不必等待键入完成。<br> :set wrapscan　　重新搜索，在搜索到文件头或尾时，返回继续搜索，默认开启。</p>
+</blockquote>
+<h3 id="替换命令"><a href="#替换命令" class="headerlink" title="替换命令"></a>替换命令</h3><blockquote>
+<p>ra 将当前字符替换为a，当期字符即光标所在字符。<br> s/old/new/ 用old替换new，替换当前行的第一个匹配<br> s/old/new/g 用old替换new，替换当前行的所有匹配<br> %s/old/new/ 用old替换new，替换所有行的第一个匹配<br> %s/old/new/g 用old替换new，替换整个文件的所有匹配<br> :10,20 s/^/    /g 在第10行知第20行每行前面加四个空格，用于缩进。<br> ddp 交换光标所在行和其下紧邻的一行。</p>
+</blockquote>
+<h3 id="移动命令"><a href="#移动命令" class="headerlink" title="移动命令"></a>移动命令</h3><blockquote>
+<p>h 左移一个字符<br> l 右移一个字符，这个命令很少用，一般用w代替。<br> k 上移一个字符<br> j 下移一个字符</p>
+</blockquote>
+<p>以上四个命令可以配合数字使用，比如20j就是向下移动20行，5h就是向左移动5个字符，在Vim中，很多命令都可以配合数字使用，比如删除10个字符10x，在当前位置后插入3个！，3a！<esc>，这里的Esc是必须的，否则命令不生效。</esc></p>
+<blockquote>
+<p>w 向前移动一个单词（光标停在单词首部），如果已到行尾，则转至下一行行首。此命令快，可以代替l命令。<br> b 向后移动一个单词 2b 向后移动2个单词<br> e，同w，只不过是光标停在单词尾部<br> ge，同b，光标停在单词尾部。<br> ^ 移动到本行第一个非空白字符上。<br> 0（数字0）移动到本行第一个字符上，<br> <home> 移动到本行第一个字符。同0健。<br> $ 移动到行尾 3$ 移动到下面3行的行尾<br> gg 移动到文件头。 = [[<br> G（shift + g） 移动到文件尾。 = ]]<br> f（find）命令也可以用于移动，fx将找到光标后第一个为x的字符，3fd将找到第三个为d的字符。<br> F 同f，反向查找。</home></p>
+</blockquote>
+<p>跳到指定行，冒号+行号，回车，比如跳到240行就是 :240回车。另一个方法是行号+G，比如230G跳到230行。</p>
+<blockquote>
+<p>Ctrl + e 向下滚动一行<br> Ctrl + y 向上滚动一行<br> Ctrl + d 向下滚动半屏<br> Ctrl + u 向上滚动半屏<br> Ctrl + f 向下滚动一屏<br> Ctrl + b 向上滚动一屏</p>
+</blockquote>
+<h3 id="撤销和重做"><a href="#撤销和重做" class="headerlink" title="撤销和重做"></a>撤销和重做</h3><blockquote>
+<p>u 撤销（Undo）<br> U 撤销对整行的操作<br> Ctrl + r 重做（Redo），即撤销的撤销。</p>
+</blockquote>
+<h3 id="删除命令"><a href="#删除命令" class="headerlink" title="删除命令"></a>删除命令</h3><blockquote>
+<p>x 删除当前字符<br> 3x 删除当前光标开始向后三个字符<br> X 删除当前字符的前一个字符。X=dh<br> dl 删除当前字符， dl=x<br> dh 删除前一个字符<br> dd 删除当前行<br> dj 删除上一行<br> dk 删除下一行<br> 10d 删除当前行开始的10行。<br> D 删除当前字符至行尾。D=d$<br> d$ 删除当前字符之后的所有字符（本行）<br> kdgg 删除当前行之前所有行（不包括当前行）<br> jdG（jd shift + g）   删除当前行之后所有行（不包括当前行）<br> :1,10d 删除1-10行<br> :11,$d 删除11行及以后所有的行<br> :1,$d 删除所有行<br> J(shift + j)　　删除两行之间的空行，实际上是合并两行。</p>
+</blockquote>
+<h3 id="拷贝和粘贴"><a href="#拷贝和粘贴" class="headerlink" title="拷贝和粘贴"></a>拷贝和粘贴</h3><blockquote>
+<p>yy 拷贝当前行<br> nyy 拷贝当前后开始的n行，比如2yy拷贝当前行及其下一行。<br> p  在当前光标后粘贴,如果之前使用了yy命令来复制一行，那么就在当前行的下一行粘贴。<br> shift+p 在当前行前粘贴<br> :1,10 co 20 将1-10行插入到第20行之后。<br> :1,$ co $ 将整个文件复制一份并添加到文件尾部。</p>
+</blockquote>
+<p>正常模式下按v（逐字）或V（逐行）进入可视模式，然后用jklh命令移动即可选择某些行或字符，再按y即可复制</p>
+<blockquote>
+<p>ddp交换当前行和其下一行<br> xp交换当前字符和其后一个字符</p>
+</blockquote>
+<h3 id="剪切命令"><a href="#剪切命令" class="headerlink" title="剪切命令"></a>剪切命令</h3><p>正常模式下按v（逐字）或V（逐行）进入可视模式，然后用jklh命令移动即可选择某些行或字符，再按d即可剪切</p>
+<blockquote>
+<p>ndd 剪切当前行之后的n行。利用p命令可以对剪切的内容进行粘贴<br> :1,10d 将1-10行剪切。利用p命令可将剪切后的内容进行粘贴。<br> :1, 10 m 20 将第1-10行移动到第20行之后。</p>
+</blockquote>
+<h3 id="退出命令"><a href="#退出命令" class="headerlink" title="退出命令"></a>退出命令</h3><blockquote>
+<p>:wq 保存并退出<br> ZZ 保存并退出<br> :q! 强制退出并忽略所有更改<br> :e! 放弃所有修改，并打开原来文件。</p>
+</blockquote>
+<h3 id="窗口命令"><a href="#窗口命令" class="headerlink" title="窗口命令"></a>窗口命令</h3><blockquote>
+<p>:split或new 打开一个新窗口，光标停在顶层的窗口上<br> :split file或:new file 用新窗口打开文件<br> split打开的窗口都是横向的，使用vsplit可以纵向打开窗口。<br> Ctrl+ww 移动到下一个窗口<br> Ctrl+wj 移动到下方的窗口<br> Ctrl+wk 移动到上方的窗口</p>
+</blockquote>
+<h3 id="关闭窗口"><a href="#关闭窗口" class="headerlink" title="关闭窗口"></a>关闭窗口</h3><blockquote>
+<p>:close 最后一个窗口不能使用此命令，可以防止意外退出vim。<br> :q 如果是最后一个被关闭的窗口，那么将退出vim。<br> ZZ 保存并退出。</p>
+</blockquote>
+<p>关闭所有窗口，只保留当前窗口</p>
+<blockquote>
+<p>:only</p>
+</blockquote>
+<h3 id="录制宏"><a href="#录制宏" class="headerlink" title="录制宏"></a>录制宏</h3><p>按q键加任意字母开始录制，再按q键结束录制（这意味着vim中的宏不可嵌套），使用的时候@加宏名，比如qa。。。q录制名为a的宏，@a使用这个宏。</p>
+<h3 id="执行shell命令"><a href="#执行shell命令" class="headerlink" title="执行shell命令"></a>执行shell命令</h3><blockquote>
+<p>:!command<br> :!ls 列出当前目录下文件<br> :!perl -c script.pl 检查perl脚本语法，可以不用退出vim，非常方便。</p>
+</blockquote>
+<p>:!perl script.pl 执行perl脚本，可以不用退出vim，非常方便。<br> :suspend或Ctrl - Z 挂起vim，回到shell，按fg可以返回vim。</p>
+<h3 id="注释命令"><a href="#注释命令" class="headerlink" title="注释命令"></a>注释命令</h3><p>perl程序中#开始的行为注释，所以要注释某些行，只需在行首加入#</p>
+<blockquote>
+<p>3,5 s/^/#/g 注释第3-5行<br> 3,5 s/^#//g 解除3-5行的注释<br> 1,$ s/^/#/g 注释整个文档。<br> :%s/^/#/g 注释整个文档，此法更快。</p>
+</blockquote>
+<h3 id="帮助命令"><a href="#帮助命令" class="headerlink" title="帮助命令"></a>帮助命令</h3><blockquote>
+<p>:help or F1 显示整个帮助<br> :help xxx 显示xxx的帮助，比如 :help i, :help CTRL-[（即Ctrl+[的帮助）。<br> :help ‘number’ Vim选项的帮助用单引号括起<br> :help <esc> 特殊键的帮助用&lt;&gt;扩起<br> :help -t Vim启动参数的帮助用-<br> ：help i_<esc> 插入模式下Esc的帮助，某个模式下的帮助用模式_主题的模式</esc></esc></p>
+</blockquote>
+<p>帮助文件中位于||之间的内容是超链接，可以用Ctrl+]进入链接，Ctrl+o（Ctrl + t）返回</p>
+<h3 id="其他非编辑命令"><a href="#其他非编辑命令" class="headerlink" title="其他非编辑命令"></a>其他非编辑命令</h3><p>. 重复前一次命令</p>
+<blockquote>
+<p>:set ruler?　　查看是否设置了ruler，在.vimrc中，使用set命令设制的选项都可以通过这个命令查看<br> :scriptnames　　查看vim脚本文件的位置，比如.vimrc文件，语法文件及plugin等。<br> :set list 显示非打印字符，如tab，空格，行尾等。如果tab无法显示，请确定用set lcs=tab:&gt;-命令设置了.vimrc文件，并确保你的文件中的确有tab，如果开启了expendtab，那么tab将被扩展为空格。</p>
+</blockquote>
+<h3 id="Vim教程"><a href="#Vim教程" class="headerlink" title="Vim教程"></a>Vim教程</h3><p>在Unix系统上</p>
+<blockquote>
+<p>$ vimtutor</p>
+</blockquote>
+<p>在Windows系统上</p>
+<blockquote>
+<p>:help tutor</p>
+</blockquote>
+<p>syntax</p>
+<blockquote>
+<p>:syntax 列出已经定义的语法项<br> :syntax clear 清除已定义的语法规则<br> :syntax case match 大小写敏感，int和Int将视为不同的语法元素<br> :syntax case ignore 大小写无关，int和Int将视为相同的语法元素，并使用同样的配色方案</p>
+</blockquote>
+<p>引用：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/0009bf462f15">https://www.jianshu.com/p/0009bf462f15</a></p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/BloodSoul.github.io/about" rel="external nofollow noreferrer">血魂S</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/vim-bian-ji-cao-zuo/">https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/vim-bian-ji-cao-zuo/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/BloodSoul.github.io/about" target="_blank">血魂S</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/BloodSoul.github.io/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/">
+                                    <span class="chip bg-color">命令行</span>
+                                </a>
+                            
+                                <a href="/BloodSoul.github.io/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/">
+                                    <span class="chip bg-color">版本管理</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/BloodSoul.github.io/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/BloodSoul.github.io/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/BloodSoul.github.io/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/BloodSoul.github.io/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/BloodSoul.github.io/2021/12/21/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/tu-xing-ying-jian/tu-xing-xuan-ran-guan-xian/computershader/computershader/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/BloodSoul.github.io/medias/featureimages/20.jpg" class="responsive-img" alt="ComputerShader">
+                        
+                        <span class="card-title">ComputerShader</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-21
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/BloodSoul.github.io/categories/Rendering/" class="post-category">
+                                    Rendering
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/BloodSoul.github.io/tags/%E5%9B%BE%E5%BD%A2%E7%A1%AC%E4%BB%B6/">
+                        <span class="chip bg-color">图形硬件</span>
+                    </a>
+                    
+                    <a href="/BloodSoul.github.io/tags/%E5%9B%BE%E5%BD%A2%E6%B8%B2%E6%9F%93%E7%AE%A1%E7%BA%BF/">
+                        <span class="chip bg-color">图形渲染管线</span>
+                    </a>
+                    
+                    <a href="/BloodSoul.github.io/tags/ComputerShader/">
+                        <span class="chip bg-color">ComputerShader</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/BloodSoul.github.io/2021/12/21/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/xuan-ran-ji-qiao/uiclip/uiclip-shi-yong-ji-qiao/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/BloodSoul.github.io/medias/featureimages/0.jpg" class="responsive-img" alt="UIClip使用技巧">
+                        
+                        <span class="card-title">UIClip使用技巧</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-21
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/BloodSoul.github.io/categories/Unity/" class="post-category">
+                                    Unity
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/BloodSoul.github.io/tags/Package/">
+                        <span class="chip bg-color">Package</span>
+                    </a>
+                    
+                    <a href="/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/">
+                        <span class="chip bg-color">渲染方向</span>
+                    </a>
+                    
+                    <a href="/BloodSoul.github.io/tags/UIClip/">
+                        <span class="chip bg-color">UIClip</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('60')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 血魂S<br />'
+            + '文章作者: 血魂S<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/BloodSoul.github.io/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/BloodSoul.github.io/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/BloodSoul.github.io/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/BloodSoul.github.io/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/BloodSoul.github.io/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h1, h2, h3, h4, h5'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4, h5').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2021-2022</span>
+            
+            <span id="year">2021</span>
+            <a href="/BloodSoul.github.io/about" target="_blank">血魂S</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">69.9k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/klj35" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2605938581" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2605938581" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/BloodSoul.github.io/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/BloodSoul.github.io/libs/materialize/materialize.min.js"></script>
+    <script src="/BloodSoul.github.io/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/BloodSoul.github.io/libs/aos/aos.js"></script>
+    <script src="/BloodSoul.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/BloodSoul.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/BloodSoul.github.io/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/BloodSoul.github.io/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/BloodSoul.github.io/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+
+    
+
+    
+    <script src="/BloodSoul.github.io/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>血魂S</title>
   
-  <subtitle>血魂S的小黑屋</subtitle>
+  <subtitle>血魂S的学习笔记</subtitle>
   <link href="https://klj35.github.io/BloodSoul.github.io/atom.xml" rel="self"/>
   
   <link href="https://klj35.github.io/BloodSoul.github.io/"/>
-  <updated>2021-11-13T01:25:16.024Z</updated>
+  <updated>2021-12-31T13:49:40.087Z</updated>
   <id>https://klj35.github.io/BloodSoul.github.io/</id>
   
   <author>
@@ -17,545 +17,568 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Color_LUT制作</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/11/12/ta/xin-ji-yuan/xuan-ran-ji-qiao/color-lut-zhi-zuo/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/11/12/ta/xin-ji-yuan/xuan-ran-ji-qiao/color-lut-zhi-zuo/</id>
-    <published>2021-11-12T03:50:50.000Z</published>
-    <updated>2021-11-13T01:25:16.024Z</updated>
+    <title>屏幕雨滴模拟</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/tian-qi/yu/ping-mu-yu-di-mo-ni/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/tian-qi/yu/ping-mu-yu-di-mo-ni/</id>
+    <published>2021-12-22T08:30:33.000Z</published>
+    <updated>2021-12-31T13:49:40.087Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;一、准备未经处理的-LUT贴图&quot;&gt;&lt;a href=&quot;#一、准备未经处理的-LUT贴图&quot; class=&quot;headerlink&quot; title=&quot;一、准备未经处理的 LUT贴图&quot;&gt;&lt;/a&gt;一、准备未经处理的</summary>
+    <summary type="html">&lt;h1 id=&quot;屏幕雨滴模拟&quot;&gt;&lt;a href=&quot;#屏幕雨滴模拟&quot; class=&quot;headerlink&quot; title=&quot;屏幕雨滴模拟&quot;&gt;&lt;/a&gt;屏幕雨滴模拟&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
     
     
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
+    <category term="渲染效果" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%95%88%E6%9E%9C/"/>
     
-    <category term="渲染技巧" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%8A%80%E5%B7%A7/"/>
+    <category term="场景" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9C%BA%E6%99%AF/"/>
+    
+    <category term="天气" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%A4%A9%E6%B0%94/"/>
+    
+    <category term="雨" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E9%9B%A8/"/>
     
   </entry>
   
   <entry>
-    <title>VPOS-VFACE-SV_VertexID</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/11/12/ta/xin-ji-yuan/xuan-ran-ji-chu-zhi-shi/vpos-vface-sv-vertexid/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/11/12/ta/xin-ji-yuan/xuan-ran-ji-chu-zhi-shi/vpos-vface-sv-vertexid/</id>
-    <published>2021-11-12T03:20:38.000Z</published>
-    <updated>2021-11-13T01:25:15.947Z</updated>
+    <title>场景雨材质效果</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/tian-qi/yu/chang-jing-yu-cai-zhi-xiao-guo/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/tian-qi/yu/chang-jing-yu-cai-zhi-xiao-guo/</id>
+    <published>2021-12-22T08:21:32.000Z</published>
+    <updated>2021-12-31T13:49:40.086Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;SV-VertexID&quot;&gt;&lt;a href=&quot;#SV-VertexID&quot; class=&quot;headerlink&quot; title=&quot;SV_VertexID&quot;&gt;&lt;/a&gt;SV_VertexID&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;uint vid :</summary>
+    <summary type="html">&lt;h1 id=&quot;场景雨材质模拟&quot;&gt;&lt;a href=&quot;#场景雨材质模拟&quot; class=&quot;headerlink&quot; title=&quot;场景雨材质模拟&quot;&gt;&lt;/a&gt;场景雨材质模拟&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
     
     
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
+    <category term="渲染效果" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%95%88%E6%9E%9C/"/>
     
-    <category term="渲染基础知识" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <category term="场景" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9C%BA%E6%99%AF/"/>
+    
+    <category term="天气" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%A4%A9%E6%B0%94/"/>
+    
+    <category term="雨" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E9%9B%A8/"/>
     
   </entry>
   
   <entry>
-    <title>Unity渲染RT的几种方式</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/11/12/ta/xin-ji-yuan/xuan-ran-ji-qiao/unity-xuan-ran-rt-de-ji-chong-fang-shi/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/11/12/ta/xin-ji-yuan/xuan-ran-ji-qiao/unity-xuan-ran-rt-de-ji-chong-fang-shi/</id>
-    <published>2021-11-12T03:11:06.000Z</published>
-    <updated>2021-11-13T01:25:16.083Z</updated>
+    <title>可交互水面涟漪</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/shui/ke-jiao-hu-shui-mian-lian-yi/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/shui/ke-jiao-hu-shui-mian-lian-yi/</id>
+    <published>2021-12-22T08:01:39.000Z</published>
+    <updated>2021-12-31T13:49:40.088Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;第一种：使用Camera&quot;&gt;&lt;a href=&quot;#第一种：使用Camera&quot; class=&quot;headerlink&quot; title=&quot;第一种：使用Camera&quot;&gt;&lt;/a&gt;第一种：使用Camera&lt;/h3&gt;&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;h1 id=&quot;可交互水面涟漪&quot;&gt;&lt;a href=&quot;#可交互水面涟漪&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
     
     
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
+    <category term="渲染效果" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%95%88%E6%9E%9C/"/>
     
-    <category term="渲染技巧" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%8A%80%E5%B7%A7/"/>
+    <category term="场景" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9C%BA%E6%99%AF/"/>
+    
+    <category term="水" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B0%B4/"/>
     
   </entry>
   
   <entry>
-    <title>Matcap技巧</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/11/12/ta/xin-ji-yuan/xuan-ran-ji-qiao/matcap-ji-qiao/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/11/12/ta/xin-ji-yuan/xuan-ran-ji-qiao/matcap-ji-qiao/</id>
-    <published>2021-11-12T03:07:27.000Z</published>
-    <updated>2021-11-13T01:25:16.081Z</updated>
+    <title>Shell脚本学习</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/shell-jiao-ben-xue-xi/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/shell-jiao-ben-xue-xi/</id>
+    <published>2021-12-22T07:34:38.000Z</published>
+    <updated>2021-12-31T13:49:40.008Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h4 id=&quot;Cheapest-PBR-Shader-EVER&quot;&gt;&lt;a href=&quot;#Cheapest-PBR-Shader-EVER&quot; class=&quot;headerlink&quot; title=&quot;Cheapest PBR Shader EVER!!!!&quot;&gt;&lt;/a&gt;Cheapest</summary>
+    <summary type="html">&lt;h1 id=&quot;Shell-脚本学习&quot;&gt;&lt;a href=&quot;#Shell-脚本学习&quot; class=&quot;headerlink&quot; title=&quot;Shell 脚本学习&quot;&gt;&lt;/a&gt;Shell 脚本学习&lt;/h1&gt;&lt;h3 id=&quot;基础用法&quot;&gt;&lt;a href=&quot;#基础用法&quot;</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="AssistTool" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AssistTool/"/>
     
     
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
+    <category term="命令行" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
     
-    <category term="渲染技巧" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%8A%80%E5%B7%A7/"/>
+    <category term="版本管理" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
   <entry>
-    <title>VirtualTexture_虚拟纹理</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/11/12/ta/xin-ji-yuan/xuan-ran-ji-qiao/virtualtexture-xu-ni-wen-li/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/11/12/ta/xin-ji-yuan/xuan-ran-ji-qiao/virtualtexture-xu-ni-wen-li/</id>
-    <published>2021-11-12T03:02:04.000Z</published>
-    <updated>2021-11-13T01:25:16.084Z</updated>
+    <title>NPR技术发展</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/zhao-se/npr/npr-ji-zhu-fa-zhan/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/zhao-se/npr/npr-ji-zhu-fa-zhan/</id>
+    <published>2021-12-22T07:27:46.000Z</published>
+    <updated>2021-12-31T13:49:40.158Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;浅谈Virtual-Texture&quot;&gt;&lt;a href=&quot;#浅谈Virtual-Texture&quot; class=&quot;headerlink&quot; title=&quot;浅谈Virtual Texture&quot;&gt;&lt;/a&gt;浅谈Virtual Texture&lt;/h3&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
-    
-    
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
-    
-    <category term="渲染技巧" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>grass</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/11/07/ta/xin-ji-yuan/tan-suo/zuo-pin-1/grass/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/11/07/ta/xin-ji-yuan/tan-suo/zuo-pin-1/grass/</id>
-    <published>2021-11-07T00:21:59.000Z</published>
-    <updated>2021-11-14T15:16:59.944Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;一、涵盖技术&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt;  渐变色&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
-    
-    
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
-    
-    <category term="作品1" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E4%BD%9C%E5%93%811/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>unity中实现PS的混合效果</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/xin-ji-yuan/xuan-ran-ji-qiao/unity-zhong-shi-xian-ps-de-hun-he-xiao-guo/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/xin-ji-yuan/xuan-ran-ji-qiao/unity-zhong-shi-xian-ps-de-hun-he-xiao-guo/</id>
-    <published>2021-10-29T10:45:18.000Z</published>
-    <updated>2021-11-13T01:25:16.090Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;PS 中的图层效果在ASE 中的对应的精确实现&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;NPR技术发展&quot;&gt;&lt;a href=&quot;#NPR技术发展&quot; class=&quot;headerlink&quot; title=&quot;NPR技术发展&quot;&gt;&lt;/a&gt;NPR技术发展&lt;/h1&gt;&lt;p&gt;卡通渲染学习总结&lt;/p&gt;
 &lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
     
     
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
+    <category term="视觉外观" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%A7%86%E8%A7%89%E5%A4%96%E8%A7%82/"/>
     
-    <category term="渲染技巧" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%8A%80%E5%B7%A7/"/>
+    <category term="着色" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%9D%80%E8%89%B2/"/>
     
-  </entry>
-  
-  <entry>
-    <title>获取屏幕坐标</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/xin-ji-yuan/xuan-ran-ji-qiao/huo-qu-ping-mu-zuo-biao/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/xin-ji-yuan/xuan-ran-ji-qiao/huo-qu-ping-mu-zuo-biao/</id>
-    <published>2021-10-29T10:36:15.000Z</published>
-    <updated>2021-11-13T01:25:16.102Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;获取屏幕坐标&quot;&gt;&lt;a href=&quot;#获取屏幕坐标&quot; class=&quot;headerlink&quot; title=&quot;获取屏幕坐标&quot;&gt;&lt;/a&gt;获取屏幕坐标&lt;/h1&gt;&lt;h3 id=&quot;SV-POSITION-语义获取&quot;&gt;&lt;a href=&quot;#SV-POSITION-语义获取&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
-    
-    
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
-    
-    <category term="渲染技巧" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%8A%80%E5%B7%A7/"/>
+    <category term="NPR" scheme="https://klj35.github.io/BloodSoul.github.io/tags/NPR/"/>
     
   </entry>
   
   <entry>
-    <title>从深度图重建世界坐标</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/xin-ji-yuan/xuan-ran-ji-qiao/cong-shen-du-tu-chong-jian-shi-jie-zuo-biao/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/xin-ji-yuan/xuan-ran-ji-qiao/cong-shen-du-tu-chong-jian-shi-jie-zuo-biao/</id>
-    <published>2021-10-29T09:59:50.000Z</published>
-    <updated>2021-11-13T01:25:16.096Z</updated>
+    <title>图像修复工具</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/assisttool/chang-yong-gong-ju/tu-xiang-xiu-fu-gong-ju/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/assisttool/chang-yong-gong-ju/tu-xiang-xiu-fu-gong-ju/</id>
+    <published>2021-12-22T07:15:41.000Z</published>
+    <updated>2021-12-31T13:49:40.006Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;一、从深度图重建世界坐标&quot;&gt;&lt;a href=&quot;#一、从深度图重建世界坐标&quot; class=&quot;headerlink&quot; title=&quot;一、从深度图重建世界坐标&quot;&gt;&lt;/a&gt;一、从深度图重建世界坐标&lt;/h1&gt;&lt;h3</summary>
+    <summary type="html">&lt;h1 id=&quot;Real-ESRGAN&quot;&gt;&lt;a href=&quot;#Real-ESRGAN&quot; class=&quot;headerlink&quot; title=&quot;Real-ESRGAN&quot;&gt;&lt;/a&gt;Real-ESRGAN&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="AssistTool" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AssistTool/"/>
     
     
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
-    
-    <category term="渲染技巧" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%8A%80%E5%B7%A7/"/>
+    <category term="常用工具" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
-    <title>线性深度</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/xin-ji-yuan/xuan-ran-ji-qiao/xian-xing-shen-du/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/xin-ji-yuan/xuan-ran-ji-qiao/xian-xing-shen-du/</id>
-    <published>2021-10-29T09:50:41.000Z</published>
-    <updated>2021-11-13T01:25:16.098Z</updated>
+    <title>网络同步</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/gameplay/wang-luo-tong-bu/wang-luo-tong-bu/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/gameplay/wang-luo-tong-bu/wang-luo-tong-bu/</id>
+    <published>2021-12-22T07:10:50.000Z</published>
+    <updated>2021-12-31T13:49:40.078Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;线性深度&quot;&gt;&lt;a href=&quot;#线性深度&quot; class=&quot;headerlink&quot; title=&quot;线性深度&quot;&gt;&lt;/a&gt;线性深度&lt;/h1&gt;&lt;p&gt;LinearEyeDepth 负责把深度纹理的采样结果转换到视角空间下的深度值&lt;/p&gt;
-&lt;p&gt;Linear01Depth</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;Network Programming in Game Development - 游戏开发中的网络编程&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="GamePlay" scheme="https://klj35.github.io/BloodSoul.github.io/categories/GamePlay/"/>
     
     
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
-    
-    <category term="渲染技巧" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络同步" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%BD%91%E7%BB%9C%E5%90%8C%E6%AD%A5/"/>
     
   </entry>
   
   <entry>
-    <title>shader真机调试</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/xin-ji-yuan/zhen-ji-diao-shi/shader-zhen-ji-diao-shi/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/xin-ji-yuan/zhen-ji-diao-shi/shader-zhen-ji-diao-shi/</id>
-    <published>2021-10-29T09:29:59.000Z</published>
-    <updated>2021-11-14T15:22:42.617Z</updated>
+    <title>shader性能分析</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/fen-xi-gong-ju/shader-xing-neng-fen-xi/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/fen-xi-gong-ju/shader-xing-neng-fen-xi/</id>
+    <published>2021-12-22T06:58:22.000Z</published>
+    <updated>2021-12-31T13:49:40.079Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;一、环境搭建&quot;&gt;&lt;a href=&quot;#一、环境搭建&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;Shader性能分析&quot;&gt;&lt;a href=&quot;#Shader性能分析&quot; class=&quot;headerlink&quot; title=&quot;Shader性能分析&quot;&gt;&lt;/a&gt;Shader性能分析&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;How to Analyze the</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
     
     
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
-    
-    <category term="Debug" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Debug/"/>
+    <category term="分析工具" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
-    <title>zbrush学习</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/art/zbrush-xue-xi/zbrush-xue-xi/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/art/zbrush-xue-xi/zbrush-xue-xi/</id>
-    <published>2021-10-29T09:25:25.000Z</published>
-    <updated>2021-10-31T13:38:05.647Z</updated>
+    <title>kajiya-kay头发渲染</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/jiao-se/tou-fa-xuan-ran/kajiya-kay-tou-fa-xuan-ran/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/jiao-se/tou-fa-xuan-ran/kajiya-kay-tou-fa-xuan-ran/</id>
+    <published>2021-12-22T06:48:53.000Z</published>
+    <updated>2021-12-31T13:49:40.093Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;ZB-官网教程&quot;&gt;&lt;a href=&quot;#ZB-官网教程&quot; class=&quot;headerlink&quot; title=&quot;ZB 官网教程&quot;&gt;&lt;/a&gt;ZB 官网教程&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;Kajiya-kay-头发渲染&quot;&gt;&lt;a href=&quot;#Kajiya-kay-头发渲染&quot; class=&quot;headerlink&quot; title=&quot;Kajiya-kay 头发渲染&quot;&gt;&lt;/a&gt;Kajiya-kay 头发渲染&lt;/h1&gt;&lt;img</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
     
     
-    <category term="Art" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Art/"/>
+    <category term="渲染效果" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%95%88%E6%9E%9C/"/>
     
-    <category term="ZBrush" scheme="https://klj35.github.io/BloodSoul.github.io/tags/ZBrush/"/>
+    <category term="角色" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%A7%92%E8%89%B2/"/>
+    
+    <category term="头发渲染" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%A4%B4%E5%8F%91%E6%B8%B2%E6%9F%93/"/>
     
   </entry>
   
   <entry>
-    <title>maya学习</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/art/maya-xue-xi/maya-xue-xi/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/29/ta/art/maya-xue-xi/maya-xue-xi/</id>
-    <published>2021-10-29T09:22:41.000Z</published>
-    <updated>2021-10-31T13:38:05.646Z</updated>
+    <title>法线外扩</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/zhao-se/npr/miao-bian/fa-xian-wai-kuo/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/zhao-se/npr/miao-bian/fa-xian-wai-kuo/</id>
+    <published>2021-12-22T06:05:44.000Z</published>
+    <updated>2021-12-31T13:49:40.159Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;设置-UI-大小&quot;&gt;&lt;a href=&quot;#设置-UI-大小&quot; class=&quot;headerlink&quot; title=&quot;设置 UI 大小&quot;&gt;&lt;/a&gt;设置 UI 大小&lt;/h1&gt;&lt;p&gt;窗口–首选项–界面–DPI&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/95986273&quot;&gt;https://zhuanlan.zhihu.com/p/95986273&lt;/a&gt;&lt;/p&gt;
 &lt;img</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
     
     
-    <category term="Art" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Art/"/>
+    <category term="视觉外观" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%A7%86%E8%A7%89%E5%A4%96%E8%A7%82/"/>
     
-    <category term="Maya" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Maya/"/>
+    <category term="着色" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%9D%80%E8%89%B2/"/>
     
-  </entry>
-  
-  <entry>
-    <title>高度图的法线用法</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/25/ta/xin-ji-yuan/xuan-ran-ji-qiao/gao-du-tu-de-fa-xian-yong-fa/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/25/ta/xin-ji-yuan/xuan-ran-ji-qiao/gao-du-tu-de-fa-xian-yong-fa/</id>
-    <published>2021-10-25T10:53:50.000Z</published>
-    <updated>2021-11-13T01:25:16.105Z</updated>
+    <category term="NPR" scheme="https://klj35.github.io/BloodSoul.github.io/tags/NPR/"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;有限差分—-前向差异法&quot;&gt;&lt;a href=&quot;#有限差分—-前向差异法&quot; class=&quot;headerlink&quot; title=&quot;有限差分—-前向差异法&quot;&gt;&lt;/a&gt;有限差分—-前向差异法&lt;/h3&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
-    
-    
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
-    
-    <category term="渲染技巧" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%8A%80%E5%B7%A7/"/>
+    <category term="描边" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%8F%8F%E8%BE%B9/"/>
     
   </entry>
   
   <entry>
-    <title>三平面映射</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/25/ta/xin-ji-yuan/xuan-ran-ji-qiao/san-ping-mian-ying-she/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/25/ta/xin-ji-yuan/xuan-ran-ji-qiao/san-ping-mian-ying-she/</id>
-    <published>2021-10-25T10:18:08.000Z</published>
-    <updated>2021-11-13T01:25:16.093Z</updated>
+    <title>伽马校正与线性空间</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/jia-ma-xiao-zheng/jia-ma-xiao-zheng-yu-xian-xing-kong-jian/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/jia-ma-xiao-zheng/jia-ma-xiao-zheng-yu-xian-xing-kong-jian/</id>
+    <published>2021-12-22T03:41:53.000Z</published>
+    <updated>2021-12-31T13:49:40.157Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;一、介绍&quot;&gt;&lt;a href=&quot;#一、介绍&quot; class=&quot;headerlink&quot; title=&quot;一、介绍&quot;&gt;&lt;/a&gt;一、介绍&lt;/h1&gt;&lt;p&gt;三平面映射（任意表面纹理化）：使用物体坐标的的 xy、zy、yz</summary>
-        
-      
-    
-    
-    
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
-    
-    
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
-    
-    <category term="渲染技巧" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>曲面细分着色器</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/25/ta/xin-ji-yuan/xuan-ran-ji-chu-zhi-shi/qu-mian-xi-fen-zhao-se-qi/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/25/ta/xin-ji-yuan/xuan-ran-ji-chu-zhi-shi/qu-mian-xi-fen-zhao-se-qi/</id>
-    <published>2021-10-25T06:05:53.000Z</published>
-    <updated>2021-11-14T15:23:56.009Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;一、介绍&quot;&gt;&lt;a href=&quot;#一、介绍&quot; class=&quot;headerlink&quot; title=&quot;一、介绍&quot;&gt;&lt;/a&gt;一、介绍&lt;/h1&gt;&lt;p&gt;曲面细分是将事物切成较小部分的艺术。可以把一条边分成多条边，把一个三角形，分多个子三角形&lt;/p&gt;
+    <summary type="html">&lt;h3 id=&quot;基础概念&quot;&gt;&lt;a href=&quot;#基础概念&quot; class=&quot;headerlink&quot; title=&quot;基础概念&quot;&gt;&lt;/a&gt;基础概念&lt;/h3&gt;&lt;p&gt;Shader 入门精要，18.4.2章节&lt;/p&gt;
 &lt;img</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
     
     
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
+    <category term="视觉外观" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%A7%86%E8%A7%89%E5%A4%96%E8%A7%82/"/>
     
-    <category term="渲染基础知识" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <category term="伽马校正" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E4%BC%BD%E9%A9%AC%E6%A0%A1%E6%AD%A3/"/>
     
-  </entry>
-  
-  <entry>
-    <title>shader技巧</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/25/ta/xin-ji-yuan/xuan-ran-ji-qiao/shader-ji-qiao/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/25/ta/xin-ji-yuan/xuan-ran-ji-qiao/shader-ji-qiao/</id>
-    <published>2021-10-25T03:41:59.000Z</published>
-    <updated>2021-11-13T01:25:16.087Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;一、ddx、ddy&quot;&gt;&lt;a href=&quot;#一、ddx、ddy&quot; class=&quot;headerlink&quot; title=&quot;一、ddx、ddy&quot;&gt;&lt;/a&gt;一、ddx、ddy&lt;/h1&gt;&lt;h3 id=&quot;1-1-概念&quot;&gt;&lt;a href=&quot;#1-1-概念&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
-    
-    
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
-    
-    <category term="渲染技巧" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%8A%80%E5%B7%A7/"/>
+    <category term="线性空间" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4/"/>
     
   </entry>
   
   <entry>
-    <title>几何着色器</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/25/ta/xin-ji-yuan/xuan-ran-ji-chu-zhi-shi/ji-he-zhao-se-qi/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/25/ta/xin-ji-yuan/xuan-ran-ji-chu-zhi-shi/ji-he-zhao-se-qi/</id>
-    <published>2021-10-25T02:27:46.000Z</published>
-    <updated>2021-11-14T15:24:04.720Z</updated>
+    <title>潮湿材质实现方式</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/te-shu-cai-zhi/chao-shi-cai-zhi/chao-shi-cai-zhi-shi-xian-fang-shi/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/te-shu-cai-zhi/chao-shi-cai-zhi/chao-shi-cai-zhi-shi-xian-fang-shi/</id>
+    <published>2021-12-22T03:34:44.000Z</published>
+    <updated>2021-12-31T13:49:40.089Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;一、介绍&quot;&gt;&lt;a href=&quot;#一、介绍&quot; class=&quot;headerlink&quot; title=&quot;一、介绍&quot;&gt;&lt;/a&gt;一、介绍&lt;/h1&gt;&lt;p&gt;位于顶点着色器之后，输入的是图元数据，不但能够获取点、线、面之间的关系，还能够进行新增以及删除的动作。&lt;/p&gt;
-&lt;img</summary>
+    <summary type="html">&lt;p&gt;SIGGRAPH 上顽皮狗的分享&lt;/p&gt;
+&lt;p&gt;Here are a few more examples. Note how the puddles show four characteristic regions. A) Core of the puddle, the</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
     
     
-    <category term="TA" scheme="https://klj35.github.io/BloodSoul.github.io/tags/TA/"/>
+    <category term="渲染效果" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%95%88%E6%9E%9C/"/>
     
-    <category term="渲染基础知识" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <category term="场景" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9C%BA%E6%99%AF/"/>
+    
+    <category term="特殊材质" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%89%B9%E6%AE%8A%E6%9D%90%E8%B4%A8/"/>
+    
+    <category term="潮湿材质" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%BD%AE%E6%B9%BF%E6%9D%90%E8%B4%A8/"/>
     
   </entry>
   
   <entry>
-    <title>材质IOR查询</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/24/ta/cai-zhi-ior-cha-xun/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/24/ta/cai-zhi-ior-cha-xun/</id>
-    <published>2021-10-24T04:19:16.000Z</published>
-    <updated>2021-10-24T05:06:16.155Z</updated>
+    <title>有意思的网站</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/hobby/you-qu-de-dong-xi/you-yi-si-de-wang-zhan/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/hobby/you-qu-de-dong-xi/you-yi-si-de-wang-zhan/</id>
+    <published>2021-12-22T03:32:43.000Z</published>
+    <updated>2021-12-31T13:49:40.191Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;IOR-Index-of-Refraction&quot;&gt;&lt;a href=&quot;#IOR-Index-of-Refraction&quot; class=&quot;headerlink&quot; title=&quot;IOR(Index of Refraction)&quot;&gt;&lt;/a&gt;IOR(Index of</summary>
+    <summary type="html">&lt;h4 id=&quot;随机代码&quot;&gt;&lt;a href=&quot;#随机代码&quot; class=&quot;headerlink&quot; title=&quot;随机代码&quot;&gt;&lt;/a&gt;随机代码&lt;/h4&gt;&lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="新纪元" scheme="https://klj35.github.io/BloodSoul.github.io/categories/%E6%96%B0%E7%BA%AA%E5%85%83/"/>
+    <category term="Hobby" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hobby/"/>
     
+    
+    <category term="有趣的东西" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B8%9C%E8%A5%BF/"/>
     
   </entry>
   
   <entry>
-    <title>mathjax使用</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/10/24/block/mathjax-shi-yong/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/10/24/block/mathjax-shi-yong/</id>
-    <published>2021-10-24T04:10:37.000Z</published>
-    <updated>2021-10-24T05:11:46.173Z</updated>
+    <title>面试基础知识回顾</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/demogallery/mian-shi/mian-shi-ji-chu-zhi-shi-hui-gu/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/demogallery/mian-shi/mian-shi-ji-chu-zhi-shi-hui-gu/</id>
+    <published>2021-12-22T02:12:44.000Z</published>
+    <updated>2021-12-31T13:49:40.005Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;语法总结&quot;&gt;&lt;a href=&quot;#语法总结&quot; class=&quot;headerlink&quot; title=&quot;语法总结&quot;&gt;&lt;/a&gt;语法总结&lt;/h2&gt;&lt;p&gt;官网：&lt;a</summary>
+    <summary type="html">&lt;h3 id=&quot;一、简要说一下渲染流程、渲染流水线&quot;&gt;&lt;a href=&quot;#一、简要说一下渲染流程、渲染流水线&quot; class=&quot;headerlink&quot; title=&quot;一、简要说一下渲染流程、渲染流水线&quot;&gt;&lt;/a&gt;一、简要说一下渲染流程、渲染流水线&lt;/h3&gt;&lt;p&gt;</summary>
         
       
     
     
     
-    <category term="Hexo" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hexo/"/>
+    <category term="DemoGallery" scheme="https://klj35.github.io/BloodSoul.github.io/categories/DemoGallery/"/>
     
     
-    <category term="mathjax" scheme="https://klj35.github.io/BloodSoul.github.io/tags/mathjax/"/>
+    <category term="面试" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分形布朗运动</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shu-xue-zhi-shi/zao-sheng/fen-xing-bu-lang-yun-dong/fen-xing-bu-lang-yun-dong/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shu-xue-zhi-shi/zao-sheng/fen-xing-bu-lang-yun-dong/fen-xing-bu-lang-yun-dong/</id>
+    <published>2021-12-22T02:06:35.000Z</published>
+    <updated>2021-12-31T13:49:40.151Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;分形布朗运动&quot;&gt;&lt;a href=&quot;#分形布朗运动&quot; class=&quot;headerlink&quot; title=&quot;分形布朗运动&quot;&gt;&lt;/a&gt;分形布朗运动&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
+    
+    
+    <category term="数学知识" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"/>
+    
+    <category term="噪声" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%99%AA%E5%A3%B0/"/>
+    
+    <category term="分形布朗运动" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%88%86%E5%BD%A2%E5%B8%83%E6%9C%97%E8%BF%90%E5%8A%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ManagerTool</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/bao-ti-gou-jian/managertool/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/bao-ti-gou-jian/managertool/</id>
+    <published>2021-12-22T01:58:40.000Z</published>
+    <updated>2021-12-31T13:49:40.011Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;atx-server 安卓集群管理 安装运行及自动化的实践&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
+    
+    
+    <category term="基础系统" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9F%BA%E7%A1%80%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="包体构建" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%8C%85%E4%BD%93%E6%9E%84%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数学分析工具</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gamecontent/rendering/fen-xi-gong-ju/shu-xue-fen-xi-gong-ju/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gamecontent/rendering/fen-xi-gong-ju/shu-xue-fen-xi-gong-ju/</id>
+    <published>2021-12-21T08:45:26.000Z</published>
+    <updated>2021-12-31T13:49:40.080Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;WOLFRAM-MATHEMATICA&quot;&gt;&lt;a href=&quot;#WOLFRAM-MATHEMATICA&quot; class=&quot;headerlink&quot; title=&quot;WOLFRAM MATHEMATICA&quot;&gt;&lt;/a&gt;WOLFRAM</summary>
+        
+      
+    
+    
+    
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
+    
+    
+    <category term="分析工具" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>渲染级别</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/xuan-ran-ji-bie/xuan-ran-ji-bie/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/xuan-ran-ji-bie/xuan-ran-ji-bie/</id>
+    <published>2021-12-21T08:35:21.000Z</published>
+    <updated>2021-12-31T13:49:40.178Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Targeting-shader-models-and-GPU-features-in-HLSL&quot;&gt;&lt;a href=&quot;#Targeting-shader-models-and-GPU-features-in-HLSL&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
+    
+    
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="渲染级别" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E7%BA%A7%E5%88%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用计算着色器进行裁剪优化</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/xuan-ran-ji-qiao/shi-yong-computershader-you-hua/li-yong-ji-suan-zhao-se-qi-jin-xing-cai-jian-you-hua/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/xuan-ran-ji-qiao/shi-yong-computershader-you-hua/li-yong-ji-suan-zhao-se-qi-jin-xing-cai-jian-you-hua/</id>
+    <published>2021-12-21T07:55:01.000Z</published>
+    <updated>2021-12-31T13:49:40.175Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;官方解释-DrawMeshInstancedIndirect&quot;&gt;&lt;a href=&quot;#官方解释-DrawMeshInstancedIndirect&quot; class=&quot;headerlink&quot; title=&quot;官方解释</summary>
+        
+      
+    
+    
+    
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
+    
+    
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="使用ComputerShader优化" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E4%BD%BF%E7%94%A8ComputerShader%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ComputerShader</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/tu-xing-ying-jian/tu-xing-xuan-ran-guan-xian/computershader/computershader/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/tu-xing-ying-jian/tu-xing-xuan-ran-guan-xian/computershader/computershader/</id>
+    <published>2021-12-21T07:23:16.000Z</published>
+    <updated>2021-12-31T13:49:40.105Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;基础知识&quot;&gt;&lt;a href=&quot;#基础知识&quot; class=&quot;headerlink&quot; title=&quot;基础知识&quot;&gt;&lt;/a&gt;基础知识&lt;/h1&gt;&lt;h5 id=&quot;Shader-Model-5-Objects&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
+    
+    
+    <category term="图形硬件" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9B%BE%E5%BD%A2%E7%A1%AC%E4%BB%B6/"/>
+    
+    <category term="图形渲染管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9B%BE%E5%BD%A2%E6%B8%B2%E6%9F%93%E7%AE%A1%E7%BA%BF/"/>
+    
+    <category term="ComputerShader" scheme="https://klj35.github.io/BloodSoul.github.io/tags/ComputerShader/"/>
     
   </entry>
   

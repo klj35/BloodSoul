@@ -1956,6 +1956,9 @@ footer .copy-right {
 .img-margin {
     margin: 25px auto 10px auto;
 }
+.img-margin1 {
+    margin: 5px auto 5px auto;
+}
 
 .caption {
     text-align: center;
