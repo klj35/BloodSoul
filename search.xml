@@ -4,6 +4,131 @@
   
     
     <entry>
+      <title>Unity与Android联合开发五Unity调用安卓方法汇总</title>
+      <link href="/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/wu-unity-diao-yong-an-zhuo-fang-fa-hui-zong/"/>
+      <url>/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/wu-unity-diao-yong-an-zhuo-fang-fa-hui-zong/</url>
+      
+        <content type="html"><![CDATA[<p>Unity3d接入安卓aar详细过程</p><p><a href="https://blog.csdn.net/qq_21267961/article/details/111548739">https://blog.csdn.net/qq_21267961/article/details/111548739</a> </p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628231331840.png" alt="image-20220628231331840" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628231355219.png" alt="image-20220628231355219" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628231413732.png" alt="image-20220628231413732" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628231430789.png" alt="image-20220628231430789" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628231450229.png" alt="image-20220628231450229" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628231552378.png" alt="image-20220628231552378" style="zoom:67%;"> ]]></content>
+      
+      
+      <categories>
+          
+          <category> AroundFunction </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SDK </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Unity与Android联合开发四SDK打包问题汇总</title>
+      <link href="/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/si-sdk-da-bao-wen-ti-hui-zong/"/>
+      <url>/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/si-sdk-da-bao-wen-ti-hui-zong/</url>
+      
+        <content type="html"><![CDATA[<p>问题一：</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230743780.png" alt="image-20220628230743780" style="zoom:67%;"> <p>修改方法：</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230808663.png" alt="image-20220628230808663" style="zoom:67%;"> <p>问题二：</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230834668.png" alt="image-20220628230834668" style="zoom:67%;"> <p>修改方法：</p><p>Aar 中 AndroidManifest label 与 unity Plugins/android AndroidManifest 文件中的 label冲突，需要删掉aar中的</p><p>问题三：</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230906939.png" alt="image-20220628230906939" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230928997.png" alt="image-20220628230928997" style="zoom:67%;"> <p>解决办法：</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230954200.png" alt="image-20220628230954200" style="zoom:67%;"> <p>改成 3.4.0</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628231025693.png" alt="image-20220628231025693" style="zoom:67%;"> ]]></content>
+      
+      
+      <categories>
+          
+          <category> AroundFunction </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SDK </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Unity与Android联合开发三启动自定义Activity</title>
+      <link href="/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/san-qi-dong-zi-ding-yi-activity/"/>
+      <url>/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/san-qi-dong-zi-ding-yi-activity/</url>
+      
+        <content type="html"><![CDATA[<p>前置知识：</p><p><strong>Android之Activity全面解析</strong></p><p><a href="https://www.jianshu.com/p/476087b4c087">https://www.jianshu.com/p/476087b4c087</a> </p><p><strong>Android Intent用法总结</strong></p><p><a href="https://www.jianshu.com/p/67d99a82509b">https://www.jianshu.com/p/67d99a82509b</a> </p><p><strong>官方文档：</strong></p><p><strong>Activity 简介</strong></p><p><a href="https://developer.android.com/guide/components/activities/intro-activities?hl=zh-cn">https://developer.android.com/guide/components/activities/intro-activities?hl=zh-cn</a> </p><p><strong>与其他应用交互</strong></p><p><a href="https://developer.android.com/training/basics/intents?hl=zh-cn">https://developer.android.com/training/basics/intents?hl=zh-cn</a> </p><p>实践</p><p>在Helper类中加入如下代码</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230341656.png" alt="image-20220628230341656" style="zoom:67%;"> <p>并在 aar 中的 AndroidManifest 中声明自己的 activity</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230407006.png" alt="image-20220628230407006" style="zoom:67%;"> <p>打包后如下：</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230433413.png" alt="image-20220628230433413" style="zoom:67%;"> <p>点击按钮会弹出自己的空Activity</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230456863.png" alt="image-20220628230456863" style="zoom:67%;"> ]]></content>
+      
+      
+      <categories>
+          
+          <category> AroundFunction </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SDK </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Unity与Android联合开发一环境配置</title>
+      <link href="/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/yi-huan-jing-pei-zhi/"/>
+      <url>/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/yi-huan-jing-pei-zhi/</url>
+      
+        <content type="html"><![CDATA[<p>创建空工程</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628221838891.png" alt="image-20220628223335488" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628221910462.png" alt="image-20220628223335488" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628224643473.png" alt="image-20220628224643473" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628222002170.png" alt="image-20220628223335488" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628224919035.png" alt="image-20220628224919035" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628222055175.png" alt="image-20220628223335488" style="zoom:67%;">  <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628222118035.png" alt="image-20220628223335488" style="zoom:67%;">  <p>将Unity的插件拷贝到如下目录</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628222159469.png" alt="image-20220628223335488" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628225147597.png" alt="image-20220628225147597" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628222249123.png" alt="image-20220628223335488" style="zoom:67%;"> <p><strong>如果需要作为主</strong>Activity<strong>扩展</strong>Unity ，还需要把 UnityPlayerActivity 拷贝到如下地方</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628222353822.png" alt="image-20220628223335488" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628222410538.png" alt="image-20220628223335488" style="zoom:67%;"> <p>修改Unity的库作为编译用，不打包出去，不然会包冲突</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628222446686.png" alt="image-20220628223335488" style="zoom:67%;"> ]]></content>
+      
+      
+      <categories>
+          
+          <category> AroundFunction </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SDK </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Unity与Android联合开发二导出AAR</title>
+      <link href="/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/er-dao-chu-aar/"/>
+      <url>/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/er-dao-chu-aar/</url>
+      
+        <content type="html"><![CDATA[<p>新建一个 java 类，示例取名为：MyToUnityHelper</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628223335488.png" alt="image-20220628223335488" style="zoom:67%;"> <p>写一个简单的方法：</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628223412670.png" alt="image-20220628223412670" style="zoom:67%;"> <p><strong>编译成 aar</strong></p><p>选中 MyToUnityLibrary 模块，buid-&gt;Make Module xxx</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628223521102.png" alt="image-20220628223521102" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628223541298.png" alt="image-20220628223541298" style="zoom:67%;"> <img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628223557619.png" alt="image-20220628223557619" style="zoom:67%;"> <p>拷贝到Unity Assets/Plugins/Android 下</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628223627692.png" alt="image-20220628223627692" style="zoom:67%;"> <p>写如下代码，打包测试</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628223702057.png" alt="image-20220628223702057" style="zoom:67%;"> <p>手机上显示如下：</p><img src="https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628223738002.png" alt="image-20220628223738002" style="zoom:67%;"> ]]></content>
+      
+      
+      <categories>
+          
+          <category> AroundFunction </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SDK </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>屏幕雨滴模拟</title>
       <link href="/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/tian-qi/yu/ping-mu-yu-di-mo-ni/"/>
       <url>/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/tian-qi/yu/ping-mu-yu-di-mo-ni/</url>
@@ -2386,11 +2511,11 @@
     
     
     <entry>
-      <title>版本管理索引-IndexLv2</title>
-      <link href="/BloodSoul.github.io/2021/07/30/blogindex/indexl2/assisttool/ban-ben-guan-li-suo-yin-indexlv2/"/>
-      <url>/BloodSoul.github.io/2021/07/30/blogindex/indexl2/assisttool/ban-ben-guan-li-suo-yin-indexlv2/</url>
+      <title>AroundFunction索引-IndexLv2</title>
+      <link href="/BloodSoul.github.io/2021/07/30/blogindex/indexl2/gamecontent/aroundfunction-suo-yin-indexlv2/"/>
+      <url>/BloodSoul.github.io/2021/07/30/blogindex/indexl2/gamecontent/aroundfunction-suo-yin-indexlv2/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://klj35.github.io/BloodSoul.github.io/2021/06/30/blogindex/indexlv1/bo-ke-suo-yin-zhu-ye-indexlv1/">返回索引主页</a></p><h1 id="可视化工具"><a href="#可视化工具" class="headerlink" title="可视化工具"></a>可视化工具</h1><h2 id="、Git"><a href="#、Git" class="headerlink" title="、Git"></a>、Git</h2><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/assisttool/ban-ben-guan-li/ke-shi-hua-gong-ju/git/git-gong-ju/">git工具</a></p><h2 id="、SVN"><a href="#、SVN" class="headerlink" title="、SVN"></a>、SVN</h2><h1 id="命令行"><a href="#命令行" class="headerlink" title="命令行"></a>命令行</h1><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/09/10/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/zheng-ze-biao-da-shi-xue-xi/">正则表达式学习</a></p><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/shell-jiao-ben-xue-xi/">Shell脚本学习</a></p><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/vim-bian-ji-cao-zuo/">Vim编辑操作</a></p>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://klj35.github.io/BloodSoul.github.io/2021/06/30/blogindex/indexlv1/bo-ke-suo-yin-zhu-ye-indexlv1/">返回索引主页</a></p><h1 id="基础业务"><a href="#基础业务" class="headerlink" title="基础业务"></a>基础业务</h1><h2 id="、包体构建"><a href="#、包体构建" class="headerlink" title="、包体构建"></a>、包体构建</h2><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/bao-ti-gou-jian/managertool/">ManagerTool</a></p><h2 id="、热更新"><a href="#、热更新" class="headerlink" title="、热更新"></a>、热更新</h2><h2 id="、SDK接入"><a href="#、SDK接入" class="headerlink" title="、SDK接入"></a>、SDK接入</h2><h2 id="、UI系统"><a href="#、UI系统" class="headerlink" title="、UI系统"></a>、UI系统</h2><h1 id="通用业务"><a href="#通用业务" class="headerlink" title="通用业务"></a>通用业务</h1><h2 id="、背包"><a href="#、背包" class="headerlink" title="、背包"></a>、背包</h2><h2 id="、-登录"><a href="#、-登录" class="headerlink" title="、 登录"></a>、 登录</h2><h2 id="、-红点"><a href="#、-红点" class="headerlink" title="、 红点"></a>、 红点</h2><h2 id="、-邮件"><a href="#、-邮件" class="headerlink" title="、 邮件"></a>、 邮件</h2>]]></content>
       
       
       <categories>
@@ -2411,11 +2536,11 @@
     
     
     <entry>
-      <title>AroundFunction索引-IndexLv2</title>
-      <link href="/BloodSoul.github.io/2021/07/30/blogindex/indexl2/gamecontent/aroundfunction-suo-yin-indexlv2/"/>
-      <url>/BloodSoul.github.io/2021/07/30/blogindex/indexl2/gamecontent/aroundfunction-suo-yin-indexlv2/</url>
+      <title>ArtResource索引-IndexLv2</title>
+      <link href="/BloodSoul.github.io/2021/07/30/blogindex/indexl2/gamecontent/artresource-suo-yin-indexlv2/"/>
+      <url>/BloodSoul.github.io/2021/07/30/blogindex/indexl2/gamecontent/artresource-suo-yin-indexlv2/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://klj35.github.io/BloodSoul.github.io/2021/06/30/blogindex/indexlv1/bo-ke-suo-yin-zhu-ye-indexlv1/">返回索引主页</a></p><h1 id="基础业务"><a href="#基础业务" class="headerlink" title="基础业务"></a>基础业务</h1><h2 id="、包体构建"><a href="#、包体构建" class="headerlink" title="、包体构建"></a>、包体构建</h2><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/bao-ti-gou-jian/managertool/">ManagerTool</a></p><h2 id="、热更新"><a href="#、热更新" class="headerlink" title="、热更新"></a>、热更新</h2><h2 id="、SDK接入"><a href="#、SDK接入" class="headerlink" title="、SDK接入"></a>、SDK接入</h2><h2 id="、UI系统"><a href="#、UI系统" class="headerlink" title="、UI系统"></a>、UI系统</h2><h1 id="通用业务"><a href="#通用业务" class="headerlink" title="通用业务"></a>通用业务</h1><h2 id="、背包"><a href="#、背包" class="headerlink" title="、背包"></a>、背包</h2><h2 id="、-登录"><a href="#、-登录" class="headerlink" title="、 登录"></a>、 登录</h2><h2 id="、-红点"><a href="#、-红点" class="headerlink" title="、 红点"></a>、 红点</h2><h2 id="、-邮件"><a href="#、-邮件" class="headerlink" title="、 邮件"></a>、 邮件</h2>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://klj35.github.io/BloodSoul.github.io/2021/06/30/blogindex/indexlv1/bo-ke-suo-yin-zhu-ye-indexlv1/">返回索引主页</a></p><h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gamecontent/artresource/cha-jian/mian-fei-mei-zhu-cha-jian/">免费美术插件</a></p><h1 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h1><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/24/gamedevelop/gamecontent/artresource/zi-yuan/cai-zhi-ior-cha-xun/">材质IOR查询</a></p><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/09/13/gamedevelop/gamecontent/artresource/zi-yuan/mian-fei-zi-yuan-wang-zhan-shou-ji/">免费资源网站收集</a></p><h1 id="2D"><a href="#2D" class="headerlink" title="2D"></a>2D</h1><h2 id="、原画"><a href="#、原画" class="headerlink" title="、原画"></a>、原画</h2><h3 id="、、、理论知识"><a href="#、、、理论知识" class="headerlink" title="、、、理论知识"></a>、、、理论知识</h3><ul><li>风格分类<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/17/gamedevelop/gamecontent/artresource/2d/yuan-hua/li-lun-zhi-shi/feng-ge-fen-lei/mei-zhu-hui-hua-fen-lei/">美术绘画分类</a></li></ul></li><li>透视<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/17/gamedevelop/gamecontent/artresource/2d/yuan-hua/li-lun-zhi-shi/tou-shi/yuan-hua-xue-xi-01-tou-shi-yuan-li/">原画学习01_透视原理</a></li></ul></li></ul><h3 id="、、、所用工具"><a href="#、、、所用工具" class="headerlink" title="、、、所用工具"></a>、、、所用工具</h3><ul><li>PS</li></ul><h1 id="3D"><a href="#3D" class="headerlink" title="3D"></a>3D</h1><h2 id="、模型"><a href="#、模型" class="headerlink" title="、模型"></a>、模型</h2><h3 id="、、、场景"><a href="#、、、场景" class="headerlink" title="、、、场景"></a>、、、场景</h3><ul><li>理论知识</li><li>所用工具<ul><li>程序化工具<ul><li>Houdini</li><li>SD</li></ul></li><li>非程序化工具<ul><li>SpeedTree</li><li>WroldCreator</li></ul></li></ul></li></ul><h3 id="、、、角色"><a href="#、、、角色" class="headerlink" title="、、、角色"></a>、、、角色</h3><ul><li>理论知识</li><li>流程<ul><li>传统流程</li><li>次时代流程</li><li><strong>PBR流程</strong><ul><li>流程内容</li><li>所用工具<ul><li>烘焙工具<ul><li>MarmosetToobag 八猴<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/24/gamedevelop/gamecontent/artresource/3d/mo-xing/jiao-se/liu-cheng/pbr-liu-cheng/suo-yong-gong-ju/hong-bei-gong-ju/marmosettoobag-ba-hou/ba-hou-xuan-ran/">八猴渲染</a></li></ul></li><li>SP</li></ul></li><li>建模工具<ul><li>程序化工具<ul><li>Houdini</li><li>SD</li></ul></li><li>非程序化工具<ul><li>Blender</li><li>Maya<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/29/gamedevelop/gamecontent/artresource/3d/mo-xing/jiao-se/liu-cheng/pbr-liu-cheng/suo-yong-gong-ju/jian-mo-gong-ju/fei-cheng-xu-hua-gong-ju/maya/maya-xue-xi/">maya学习</a></li></ul></li><li>Zbrush<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/29/gamedevelop/gamecontent/artresource/3d/mo-xing/jiao-se/liu-cheng/pbr-liu-cheng/suo-yong-gong-ju/jian-mo-gong-ju/fei-cheng-xu-hua-gong-ju/zbrush/zbrush-xue-xi/">Zbrush学习</a></li></ul></li><li>3dsMax</li></ul></li></ul></li><li>贴图工具<ul><li>程序化工具<ul><li>SD<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/17/gamedevelop/gamecontent/artresource/3d/mo-xing/jiao-se/liu-cheng/pbr-liu-cheng/suo-yong-gong-ju/tie-tu-gong-ju/cheng-xu-hua-gong-ju/sd/sd-xue-xi/">SD学习</a></li></ul></li></ul></li><li>非程序化工具<ul><li>SP<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/24/gamedevelop/gamecontent/artresource/3d/mo-xing/jiao-se/liu-cheng/pbr-liu-cheng/suo-yong-gong-ju/tie-tu-gong-ju/fei-cheng-xu-hua-gong-ju/sp/sp-xue-xi-bi-ji/">SP学习笔记</a></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><h1 id="2D与3D"><a href="#2D与3D" class="headerlink" title="2D与3D"></a>2D与3D</h1><h2 id="、特效"><a href="#、特效" class="headerlink" title="、特效"></a>、特效</h2><h3 id="、、、理论知识-1"><a href="#、、、理论知识-1" class="headerlink" title="、、、理论知识"></a>、、、理论知识</h3><h3 id="、、、所用工具-1"><a href="#、、、所用工具-1" class="headerlink" title="、、、所用工具"></a>、、、所用工具</h3><ul><li>程序化工具<ul><li>Houdini</li></ul></li><li>非程序化工具</li></ul>]]></content>
       
       
       <categories>
@@ -2486,11 +2611,11 @@
     
     
     <entry>
-      <title>ArtResource索引-IndexLv2</title>
-      <link href="/BloodSoul.github.io/2021/07/30/blogindex/indexl2/gamecontent/artresource-suo-yin-indexlv2/"/>
-      <url>/BloodSoul.github.io/2021/07/30/blogindex/indexl2/gamecontent/artresource-suo-yin-indexlv2/</url>
+      <title>版本管理索引-IndexLv2</title>
+      <link href="/BloodSoul.github.io/2021/07/30/blogindex/indexl2/assisttool/ban-ben-guan-li-suo-yin-indexlv2/"/>
+      <url>/BloodSoul.github.io/2021/07/30/blogindex/indexl2/assisttool/ban-ben-guan-li-suo-yin-indexlv2/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://klj35.github.io/BloodSoul.github.io/2021/06/30/blogindex/indexlv1/bo-ke-suo-yin-zhu-ye-indexlv1/">返回索引主页</a></p><h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gamecontent/artresource/cha-jian/mian-fei-mei-zhu-cha-jian/">免费美术插件</a></p><h1 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h1><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/24/gamedevelop/gamecontent/artresource/zi-yuan/cai-zhi-ior-cha-xun/">材质IOR查询</a></p><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/09/13/gamedevelop/gamecontent/artresource/zi-yuan/mian-fei-zi-yuan-wang-zhan-shou-ji/">免费资源网站收集</a></p><h1 id="2D"><a href="#2D" class="headerlink" title="2D"></a>2D</h1><h2 id="、原画"><a href="#、原画" class="headerlink" title="、原画"></a>、原画</h2><h3 id="、、、理论知识"><a href="#、、、理论知识" class="headerlink" title="、、、理论知识"></a>、、、理论知识</h3><ul><li>风格分类<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/17/gamedevelop/gamecontent/artresource/2d/yuan-hua/li-lun-zhi-shi/feng-ge-fen-lei/mei-zhu-hui-hua-fen-lei/">美术绘画分类</a></li></ul></li><li>透视<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/17/gamedevelop/gamecontent/artresource/2d/yuan-hua/li-lun-zhi-shi/tou-shi/yuan-hua-xue-xi-01-tou-shi-yuan-li/">原画学习01_透视原理</a></li></ul></li></ul><h3 id="、、、所用工具"><a href="#、、、所用工具" class="headerlink" title="、、、所用工具"></a>、、、所用工具</h3><ul><li>PS</li></ul><h1 id="3D"><a href="#3D" class="headerlink" title="3D"></a>3D</h1><h2 id="、模型"><a href="#、模型" class="headerlink" title="、模型"></a>、模型</h2><h3 id="、、、场景"><a href="#、、、场景" class="headerlink" title="、、、场景"></a>、、、场景</h3><ul><li>理论知识</li><li>所用工具<ul><li>程序化工具<ul><li>Houdini</li><li>SD</li></ul></li><li>非程序化工具<ul><li>SpeedTree</li><li>WroldCreator</li></ul></li></ul></li></ul><h3 id="、、、角色"><a href="#、、、角色" class="headerlink" title="、、、角色"></a>、、、角色</h3><ul><li>理论知识</li><li>流程<ul><li>传统流程</li><li>次时代流程</li><li><strong>PBR流程</strong><ul><li>流程内容</li><li>所用工具<ul><li>烘焙工具<ul><li>MarmosetToobag 八猴<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/24/gamedevelop/gamecontent/artresource/3d/mo-xing/jiao-se/liu-cheng/pbr-liu-cheng/suo-yong-gong-ju/hong-bei-gong-ju/marmosettoobag-ba-hou/ba-hou-xuan-ran/">八猴渲染</a></li></ul></li><li>SP</li></ul></li><li>建模工具<ul><li>程序化工具<ul><li>Houdini</li><li>SD</li></ul></li><li>非程序化工具<ul><li>Blender</li><li>Maya<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/29/gamedevelop/gamecontent/artresource/3d/mo-xing/jiao-se/liu-cheng/pbr-liu-cheng/suo-yong-gong-ju/jian-mo-gong-ju/fei-cheng-xu-hua-gong-ju/maya/maya-xue-xi/">maya学习</a></li></ul></li><li>Zbrush<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/29/gamedevelop/gamecontent/artresource/3d/mo-xing/jiao-se/liu-cheng/pbr-liu-cheng/suo-yong-gong-ju/jian-mo-gong-ju/fei-cheng-xu-hua-gong-ju/zbrush/zbrush-xue-xi/">Zbrush学习</a></li></ul></li><li>3dsMax</li></ul></li></ul></li><li>贴图工具<ul><li>程序化工具<ul><li>SD<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/17/gamedevelop/gamecontent/artresource/3d/mo-xing/jiao-se/liu-cheng/pbr-liu-cheng/suo-yong-gong-ju/tie-tu-gong-ju/cheng-xu-hua-gong-ju/sd/sd-xue-xi/">SD学习</a></li></ul></li></ul></li><li>非程序化工具<ul><li>SP<ul><li><a href="https://klj35.github.io/BloodSoul.github.io/2021/10/24/gamedevelop/gamecontent/artresource/3d/mo-xing/jiao-se/liu-cheng/pbr-liu-cheng/suo-yong-gong-ju/tie-tu-gong-ju/fei-cheng-xu-hua-gong-ju/sp/sp-xue-xi-bi-ji/">SP学习笔记</a></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><h1 id="2D与3D"><a href="#2D与3D" class="headerlink" title="2D与3D"></a>2D与3D</h1><h2 id="、特效"><a href="#、特效" class="headerlink" title="、特效"></a>、特效</h2><h3 id="、、、理论知识-1"><a href="#、、、理论知识-1" class="headerlink" title="、、、理论知识"></a>、、、理论知识</h3><h3 id="、、、所用工具-1"><a href="#、、、所用工具-1" class="headerlink" title="、、、所用工具"></a>、、、所用工具</h3><ul><li>程序化工具<ul><li>Houdini</li></ul></li><li>非程序化工具</li></ul>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://klj35.github.io/BloodSoul.github.io/2021/06/30/blogindex/indexlv1/bo-ke-suo-yin-zhu-ye-indexlv1/">返回索引主页</a></p><h1 id="可视化工具"><a href="#可视化工具" class="headerlink" title="可视化工具"></a>可视化工具</h1><h2 id="、Git"><a href="#、Git" class="headerlink" title="、Git"></a>、Git</h2><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/assisttool/ban-ben-guan-li/ke-shi-hua-gong-ju/git/git-gong-ju/">git工具</a></p><h2 id="、SVN"><a href="#、SVN" class="headerlink" title="、SVN"></a>、SVN</h2><h1 id="命令行"><a href="#命令行" class="headerlink" title="命令行"></a>命令行</h1><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/09/10/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/zheng-ze-biao-da-shi-xue-xi/">正则表达式学习</a></p><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/shell-jiao-ben-xue-xi/">Shell脚本学习</a></p><p><a href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/vim-bian-ji-cao-zuo/">Vim编辑操作</a></p>]]></content>
       
       
       <categories>

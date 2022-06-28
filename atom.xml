@@ -6,7 +6,7 @@
   <link href="https://klj35.github.io/BloodSoul.github.io/atom.xml" rel="self"/>
   
   <link href="https://klj35.github.io/BloodSoul.github.io/"/>
-  <updated>2021-12-31T13:49:40.087Z</updated>
+  <updated>2022-06-28T15:16:32.515Z</updated>
   <id>https://klj35.github.io/BloodSoul.github.io/</id>
   
   <author>
@@ -15,6 +15,137 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Unity与Android联合开发五Unity调用安卓方法汇总</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/wu-unity-diao-yong-an-zhuo-fang-fa-hui-zong/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/wu-unity-diao-yong-an-zhuo-fang-fa-hui-zong/</id>
+    <published>2022-06-28T15:12:16.000Z</published>
+    <updated>2022-06-28T15:16:32.515Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Unity3d接入安卓aar详细过程&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
+    
+    
+    <category term="SDK" scheme="https://klj35.github.io/BloodSoul.github.io/tags/SDK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unity与Android联合开发四SDK打包问题汇总</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/si-sdk-da-bao-wen-ti-hui-zong/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/si-sdk-da-bao-wen-ti-hui-zong/</id>
+    <published>2022-06-28T15:06:36.000Z</published>
+    <updated>2022-06-28T15:12:25.827Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题一：&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230743780.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
+    
+    
+    <category term="SDK" scheme="https://klj35.github.io/BloodSoul.github.io/tags/SDK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unity与Android联合开发三启动自定义Activity</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/san-qi-dong-zi-ding-yi-activity/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/san-qi-dong-zi-ding-yi-activity/</id>
+    <published>2022-06-28T15:00:39.000Z</published>
+    <updated>2022-06-28T15:06:48.657Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;前置知识：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Android之Activity全面解析&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
+    
+    
+    <category term="SDK" scheme="https://klj35.github.io/BloodSoul.github.io/tags/SDK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unity与Android联合开发一环境配置</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/yi-huan-jing-pei-zhi/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/yi-huan-jing-pei-zhi/</id>
+    <published>2022-06-28T14:35:17.000Z</published>
+    <updated>2022-06-28T15:07:14.537Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;创建空工程&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628221838891.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
+    
+    
+    <category term="SDK" scheme="https://klj35.github.io/BloodSoul.github.io/tags/SDK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unity与Android联合开发二导出AAR</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/er-dao-chu-aar/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/er-dao-chu-aar/</id>
+    <published>2022-06-28T14:31:18.000Z</published>
+    <updated>2022-06-28T14:59:11.298Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;新建一个 java 类，示例取名为：MyToUnityHelper&lt;/p&gt;
+&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
+    
+    
+    <category term="SDK" scheme="https://klj35.github.io/BloodSoul.github.io/tags/SDK/"/>
+    
+  </entry>
   
   <entry>
     <title>屏幕雨滴模拟</title>
@@ -439,146 +570,6 @@
     <category term="噪声" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%99%AA%E5%A3%B0/"/>
     
     <category term="分形布朗运动" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%88%86%E5%BD%A2%E5%B8%83%E6%9C%97%E8%BF%90%E5%8A%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ManagerTool</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/bao-ti-gou-jian/managertool/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/bao-ti-gou-jian/managertool/</id>
-    <published>2021-12-22T01:58:40.000Z</published>
-    <updated>2021-12-31T13:49:40.011Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;atx-server 安卓集群管理 安装运行及自动化的实践&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
-    
-    
-    <category term="基础系统" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9F%BA%E7%A1%80%E7%B3%BB%E7%BB%9F/"/>
-    
-    <category term="包体构建" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%8C%85%E4%BD%93%E6%9E%84%E5%BB%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数学分析工具</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gamecontent/rendering/fen-xi-gong-ju/shu-xue-fen-xi-gong-ju/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gamecontent/rendering/fen-xi-gong-ju/shu-xue-fen-xi-gong-ju/</id>
-    <published>2021-12-21T08:45:26.000Z</published>
-    <updated>2021-12-31T13:49:40.080Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;WOLFRAM-MATHEMATICA&quot;&gt;&lt;a href=&quot;#WOLFRAM-MATHEMATICA&quot; class=&quot;headerlink&quot; title=&quot;WOLFRAM MATHEMATICA&quot;&gt;&lt;/a&gt;WOLFRAM</summary>
-        
-      
-    
-    
-    
-    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
-    
-    
-    <category term="分析工具" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>渲染级别</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/xuan-ran-ji-bie/xuan-ran-ji-bie/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/xuan-ran-ji-bie/xuan-ran-ji-bie/</id>
-    <published>2021-12-21T08:35:21.000Z</published>
-    <updated>2021-12-31T13:49:40.178Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;Targeting-shader-models-and-GPU-features-in-HLSL&quot;&gt;&lt;a href=&quot;#Targeting-shader-models-and-GPU-features-in-HLSL&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
-    
-    
-    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
-    
-    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
-    
-    <category term="渲染级别" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E7%BA%A7%E5%88%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>利用计算着色器进行裁剪优化</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/xuan-ran-ji-qiao/shi-yong-computershader-you-hua/li-yong-ji-suan-zhao-se-qi-jin-xing-cai-jian-you-hua/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/xuan-ran-ji-qiao/shi-yong-computershader-you-hua/li-yong-ji-suan-zhao-se-qi-jin-xing-cai-jian-you-hua/</id>
-    <published>2021-12-21T07:55:01.000Z</published>
-    <updated>2021-12-31T13:49:40.175Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;官方解释-DrawMeshInstancedIndirect&quot;&gt;&lt;a href=&quot;#官方解释-DrawMeshInstancedIndirect&quot; class=&quot;headerlink&quot; title=&quot;官方解释</summary>
-        
-      
-    
-    
-    
-    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
-    
-    
-    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
-    
-    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
-    
-    <category term="使用ComputerShader优化" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E4%BD%BF%E7%94%A8ComputerShader%E4%BC%98%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ComputerShader</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/tu-xing-ying-jian/tu-xing-xuan-ran-guan-xian/computershader/computershader/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/21/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/tu-xing-ying-jian/tu-xing-xuan-ran-guan-xian/computershader/computershader/</id>
-    <published>2021-12-21T07:23:16.000Z</published>
-    <updated>2021-12-31T13:49:40.105Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;基础知识&quot;&gt;&lt;a href=&quot;#基础知识&quot; class=&quot;headerlink&quot; title=&quot;基础知识&quot;&gt;&lt;/a&gt;基础知识&lt;/h1&gt;&lt;h5 id=&quot;Shader-Model-5-Objects&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
-    
-    
-    <category term="图形硬件" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9B%BE%E5%BD%A2%E7%A1%AC%E4%BB%B6/"/>
-    
-    <category term="图形渲染管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9B%BE%E5%BD%A2%E6%B8%B2%E6%9F%93%E7%AE%A1%E7%BA%BF/"/>
-    
-    <category term="ComputerShader" scheme="https://klj35.github.io/BloodSoul.github.io/tags/ComputerShader/"/>
     
   </entry>
   
