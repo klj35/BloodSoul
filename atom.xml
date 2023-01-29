@@ -6,7 +6,7 @@
   <link href="https://klj35.github.io/BloodSoul.github.io/atom.xml" rel="self"/>
   
   <link href="https://klj35.github.io/BloodSoul.github.io/"/>
-  <updated>2022-06-28T15:16:32.515Z</updated>
+  <updated>2022-12-22T10:57:48.415Z</updated>
   <id>https://klj35.github.io/BloodSoul.github.io/</id>
   
   <author>
@@ -17,149 +17,320 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Unity与Android联合开发五Unity调用安卓方法汇总</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/wu-unity-diao-yong-an-zhuo-fang-fa-hui-zong/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/wu-unity-diao-yong-an-zhuo-fang-fa-hui-zong/</id>
-    <published>2022-06-28T15:12:16.000Z</published>
-    <updated>2022-06-28T15:16:32.515Z</updated>
+    <title>SRP_17_FXAA</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/12/22/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-17-fxaa/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/12/22/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-17-fxaa/</id>
+    <published>2022-12-22T10:51:10.000Z</published>
+    <updated>2022-12-22T10:57:48.415Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Unity3d接入安卓aar详细过程&lt;/p&gt;
+    <summary type="html">&lt;p&gt;FXAA 是对 Gamma 空间下的 Luma 进行处理的&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
+    
+    
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SRP_16_RenderScale</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/12/22/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-16-renderscale/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/12/22/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-16-renderscale/</id>
+    <published>2022-12-22T10:46:51.000Z</published>
+    <updated>2022-12-22T10:51:57.987Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;_ScreenParams 参数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
+    
+    
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SRP-15-Particles</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/12/22/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-15-particles/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/12/22/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-15-particles/</id>
+    <published>2022-12-22T10:34:20.000Z</published>
+    <updated>2022-12-22T10:47:28.172Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;SV-POSITION&quot;&gt;&lt;a href=&quot;#SV-POSITION&quot; class=&quot;headerlink&quot; title=&quot;SV_POSITION&quot;&gt;&lt;/a&gt;SV_POSITION&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;在 Vertex</summary>
+        
+      
+    
+    
+    
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
+    
+    
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SPR_14_MultipleCameras</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/12/16/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-14-multiplecameras/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/12/16/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-14-multiplecameras/</id>
+    <published>2022-12-16T01:05:24.000Z</published>
+    <updated>2022-12-22T10:52:01.258Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;相机叠加时，第一个主相机混合模式应该是 One Zero，其他的应该是 One     OneMinusSrcAlpha&lt;/li&gt;
+&lt;li&gt;渲染时，会先渲染有 TargetTexture     的相机，在渲染其他相机&lt;/li&gt;
+&lt;li&gt;如果有</summary>
+        
+      
+    
+    
+    
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
+    
+    
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SRP_13_ColorGrading</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-13-colorgrading/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-13-colorgrading/</id>
+    <published>2022-12-15T14:37:38.000Z</published>
+    <updated>2022-12-15T15:04:30.085Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;Post-Exposure，曝光&quot;&gt;&lt;a href=&quot;#Post-Exposure，曝光&quot; class=&quot;headerlink&quot; title=&quot;Post Exposure，曝光&quot;&gt;&lt;/a&gt;Post</summary>
+        
+      
+    
+    
+    
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
+    
+    
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SRP_12_HDR</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-12-hdr/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-12-hdr/</id>
+    <published>2022-12-15T14:23:48.000Z</published>
+    <updated>2022-12-15T14:38:03.329Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;默认LDR 贴图格式&lt;ul&gt;
+&lt;li&gt;R8G8B8A8_SRGB&lt;ul&gt;
+&lt;li&gt;单通道 8 bit，RGB 值存储在 sRGB</summary>
+        
+      
+    
+    
+    
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
+    
+    
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SRP_11_PostFX</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-11-postfx/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-11-postfx/</id>
+    <published>2022-12-15T14:11:12.000Z</published>
+    <updated>2022-12-15T14:21:03.092Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
+    
+    
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SRP_10_PointAndSpotShadows</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-10-pointandspotshadows/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-10-pointandspotshadows/</id>
+    <published>2022-12-15T13:49:32.000Z</published>
+    <updated>2022-12-15T14:09:21.583Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
+    
+    
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SRP_09_PointAndSpotLight</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-09-pointandspotlight/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-09-pointandspotlight/</id>
+    <published>2022-12-15T13:15:51.000Z</published>
+    <updated>2022-12-15T13:50:43.074Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、Point&quot;&gt;&lt;a href=&quot;#一、Point&quot; class=&quot;headerlink&quot; title=&quot;一、Point&quot;&gt;&lt;/a&gt;一、Point&lt;/h1&gt;&lt;p&gt;原文链接：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
+    
+    
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SRP_08_ComplexMaps</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-08-complexmaps/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/12/15/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-08-complexmaps/</id>
+    <published>2022-12-15T13:12:45.000Z</published>
+    <updated>2022-12-15T13:20:28.754Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;aa&lt;/p&gt;
 &lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
     
     
-    <category term="SDK" scheme="https://klj35.github.io/BloodSoul.github.io/tags/SDK/"/>
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Unity与Android联合开发四SDK打包问题汇总</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/si-sdk-da-bao-wen-ti-hui-zong/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/si-sdk-da-bao-wen-ti-hui-zong/</id>
-    <published>2022-06-28T15:06:36.000Z</published>
-    <updated>2022-06-28T15:12:25.827Z</updated>
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题一：&lt;/p&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628230743780.png&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
-    
-    
-    <category term="SDK" scheme="https://klj35.github.io/BloodSoul.github.io/tags/SDK/"/>
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
     
   </entry>
   
   <entry>
-    <title>Unity与Android联合开发三启动自定义Activity</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/san-qi-dong-zi-ding-yi-activity/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/san-qi-dong-zi-ding-yi-activity/</id>
-    <published>2022-06-28T15:00:39.000Z</published>
-    <updated>2022-06-28T15:06:48.657Z</updated>
+    <title>decal</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/11/24/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/decal/decal/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/11/24/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/decal/decal/</id>
+    <published>2022-11-24T03:03:25.000Z</published>
+    <updated>2022-12-15T11:35:07.854Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;前置知识：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Android之Activity全面解析&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
-    
-    
-    <category term="SDK" scheme="https://klj35.github.io/BloodSoul.github.io/tags/SDK/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Unity与Android联合开发一环境配置</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/yi-huan-jing-pei-zhi/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/yi-huan-jing-pei-zhi/</id>
-    <published>2022-06-28T14:35:17.000Z</published>
-    <updated>2022-06-28T15:07:14.537Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;创建空工程&lt;/p&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/klj35/BloodSoulBlockImage/main/img/image-20220628221838891.png&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
-    
-    
-    <category term="SDK" scheme="https://klj35.github.io/BloodSoul.github.io/tags/SDK/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Unity与Android联合开发二导出AAR</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/er-dao-chu-aar/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2022/06/28/gamedevelop/gamecontent/aroundfunction/ji-chu-xi-tong/sdk-jie-ru/unity-yu-android-lian-he-kai-fa/er-dao-chu-aar/</id>
-    <published>2022-06-28T14:31:18.000Z</published>
-    <updated>2022-06-28T14:59:11.298Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;新建一个 java 类，示例取名为：MyToUnityHelper&lt;/p&gt;
-&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
-    
-    
-    <category term="SDK" scheme="https://klj35.github.io/BloodSoul.github.io/tags/SDK/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>屏幕雨滴模拟</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/tian-qi/yu/ping-mu-yu-di-mo-ni/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/tian-qi/yu/ping-mu-yu-di-mo-ni/</id>
-    <published>2021-12-22T08:30:33.000Z</published>
-    <updated>2021-12-31T13:49:40.087Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;屏幕雨滴模拟&quot;&gt;&lt;a href=&quot;#屏幕雨滴模拟&quot; class=&quot;headerlink&quot; title=&quot;屏幕雨滴模拟&quot;&gt;&lt;/a&gt;屏幕雨滴模拟&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;Plane-Projector&quot;&gt;&lt;a href=&quot;#Plane-Projector&quot; class=&quot;headerlink&quot; title=&quot;Plane Projector&quot;&gt;&lt;/a&gt;Plane Projector&lt;/h1&gt;&lt;p&gt;通过 raycast</summary>
         
       
     
@@ -172,404 +343,270 @@
     
     <category term="场景" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9C%BA%E6%99%AF/"/>
     
-    <category term="天气" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%A4%A9%E6%B0%94/"/>
-    
-    <category term="雨" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E9%9B%A8/"/>
+    <category term="Decal" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Decal/"/>
     
   </entry>
   
   <entry>
-    <title>场景雨材质效果</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/tian-qi/yu/chang-jing-yu-cai-zhi-xiao-guo/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/tian-qi/yu/chang-jing-yu-cai-zhi-xiao-guo/</id>
-    <published>2021-12-22T08:21:32.000Z</published>
-    <updated>2021-12-31T13:49:40.086Z</updated>
+    <title>Bakery烘焙</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/11/21/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/gong-ju-fang-xiang/chang-jing/bakery/bakery-hong-bei/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/11/21/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/gong-ju-fang-xiang/chang-jing/bakery/bakery-hong-bei/</id>
+    <published>2022-11-21T06:25:31.000Z</published>
+    <updated>2022-12-15T11:35:07.995Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;场景雨材质模拟&quot;&gt;&lt;a href=&quot;#场景雨材质模拟&quot; class=&quot;headerlink&quot; title=&quot;场景雨材质模拟&quot;&gt;&lt;/a&gt;场景雨材质模拟&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;一、使用方法&quot;&gt;&lt;a href=&quot;#一、使用方法&quot; class=&quot;headerlink&quot; title=&quot;一、使用方法&quot;&gt;&lt;/a&gt;一、使用方法&lt;/h1&gt;&lt;h4 id=&quot;Bakery-烘焙脚本&quot;&gt;&lt;a href=&quot;#Bakery-烘焙脚本&quot;</summary>
         
       
     
     
     
-    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
     
-    
-    <category term="渲染效果" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%95%88%E6%9E%9C/"/>
     
     <category term="场景" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9C%BA%E6%99%AF/"/>
     
-    <category term="天气" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%A4%A9%E6%B0%94/"/>
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
     
-    <category term="雨" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E9%9B%A8/"/>
+    <category term="工具方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%B7%A5%E5%85%B7%E6%96%B9%E5%90%91/"/>
     
-  </entry>
-  
-  <entry>
-    <title>可交互水面涟漪</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/shui/ke-jiao-hu-shui-mian-lian-yi/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/shui/ke-jiao-hu-shui-mian-lian-yi/</id>
-    <published>2021-12-22T08:01:39.000Z</published>
-    <updated>2021-12-31T13:49:40.088Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;可交互水面涟漪&quot;&gt;&lt;a href=&quot;#可交互水面涟漪&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
-    
-    
-    <category term="渲染效果" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%95%88%E6%9E%9C/"/>
-    
-    <category term="场景" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9C%BA%E6%99%AF/"/>
-    
-    <category term="水" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B0%B4/"/>
+    <category term="Bakery" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Bakery/"/>
     
   </entry>
   
   <entry>
-    <title>Shell脚本学习</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/shell-jiao-ben-xue-xi/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/assisttool/ban-ben-guan-li/ming-ling-xing/shell-jiao-ben-xue-xi/</id>
-    <published>2021-12-22T07:34:38.000Z</published>
-    <updated>2021-12-31T13:49:40.008Z</updated>
+    <title>SRP_07_LOD_and_Reflection</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/11/18/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-07-lodandreflection/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/11/18/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-07-lodandreflection/</id>
+    <published>2022-11-18T07:38:31.000Z</published>
+    <updated>2022-12-15T12:52:48.710Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Shell-脚本学习&quot;&gt;&lt;a href=&quot;#Shell-脚本学习&quot; class=&quot;headerlink&quot; title=&quot;Shell 脚本学习&quot;&gt;&lt;/a&gt;Shell 脚本学习&lt;/h1&gt;&lt;h3 id=&quot;基础用法&quot;&gt;&lt;a href=&quot;#基础用法&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;可以使用LODGroup.crossFadeAnimationDuration</summary>
         
       
     
     
     
-    <category term="AssistTool" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AssistTool/"/>
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
     
     
-    <category term="命令行" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
     
-    <category term="版本管理" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
     
   </entry>
   
   <entry>
-    <title>NPR技术发展</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/zhao-se/npr/npr-ji-zhu-fa-zhan/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/zhao-se/npr/npr-ji-zhu-fa-zhan/</id>
-    <published>2021-12-22T07:27:46.000Z</published>
-    <updated>2021-12-31T13:49:40.158Z</updated>
+    <title>SRP_06_BakedShadowMask</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/11/18/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-06-bakedshadowmask/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/11/18/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-06-bakedshadowmask/</id>
+    <published>2022-11-18T03:33:04.000Z</published>
+    <updated>2022-11-19T07:22:42.006Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;NPR技术发展&quot;&gt;&lt;a href=&quot;#NPR技术发展&quot; class=&quot;headerlink&quot; title=&quot;NPR技术发展&quot;&gt;&lt;/a&gt;NPR技术发展&lt;/h1&gt;&lt;p&gt;卡通渲染学习总结&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;一、ShadowMask-Bake-Mode&quot;&gt;&lt;a href=&quot;#一、ShadowMask-Bake-Mode&quot; class=&quot;headerlink&quot; title=&quot;一、ShadowMask Bake Mode&quot;&gt;&lt;/a&gt;一、ShadowMask Bake</summary>
         
       
     
     
     
-    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
     
     
-    <category term="视觉外观" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%A7%86%E8%A7%89%E5%A4%96%E8%A7%82/"/>
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
     
-    <category term="着色" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%9D%80%E8%89%B2/"/>
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
     
-    <category term="NPR" scheme="https://klj35.github.io/BloodSoul.github.io/tags/NPR/"/>
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
     
   </entry>
   
   <entry>
-    <title>图像修复工具</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/assisttool/chang-yong-gong-ju/tu-xiang-xiu-fu-gong-ju/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/assisttool/chang-yong-gong-ju/tu-xiang-xiu-fu-gong-ju/</id>
-    <published>2021-12-22T07:15:41.000Z</published>
-    <updated>2021-12-31T13:49:40.006Z</updated>
+    <title>SRP_05_BakedLights</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/11/17/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-05-bakedlights/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/11/17/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-05-bakedlights/</id>
+    <published>2022-11-17T12:35:57.000Z</published>
+    <updated>2022-12-15T11:35:08.114Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Real-ESRGAN&quot;&gt;&lt;a href=&quot;#Real-ESRGAN&quot; class=&quot;headerlink&quot; title=&quot;Real-ESRGAN&quot;&gt;&lt;/a&gt;Real-ESRGAN&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;一、Indirect-Bake-Mode&quot;&gt;&lt;a href=&quot;#一、Indirect-Bake-Mode&quot; class=&quot;headerlink&quot; title=&quot;一、Indirect Bake Mode&quot;&gt;&lt;/a&gt;一、Indirect Bake</summary>
         
       
     
     
     
-    <category term="AssistTool" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AssistTool/"/>
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
     
     
-    <category term="常用工具" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
     
   </entry>
   
   <entry>
-    <title>网络同步</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/gameplay/wang-luo-tong-bu/wang-luo-tong-bu/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/gameplay/wang-luo-tong-bu/wang-luo-tong-bu/</id>
-    <published>2021-12-22T07:10:50.000Z</published>
-    <updated>2021-12-31T13:49:40.078Z</updated>
+    <title>SRP_04_DirectionalShadows</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/11/17/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-04-directionalshadows/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/11/17/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-04-directionalshadows/</id>
+    <published>2022-11-17T11:37:01.000Z</published>
+    <updated>2022-11-19T07:08:36.032Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;strong&gt;Network Programming in Game Development - 游戏开发中的网络编程&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;一、Shadermap-贴图&quot;&gt;&lt;a href=&quot;#一、Shadermap-贴图&quot; class=&quot;headerlink&quot; title=&quot;一、Shadermap 贴图&quot;&gt;&lt;/a&gt;一、Shadermap 贴图&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="GamePlay" scheme="https://klj35.github.io/BloodSoul.github.io/categories/GamePlay/"/>
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
     
     
-    <category term="网络同步" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%BD%91%E7%BB%9C%E5%90%8C%E6%AD%A5/"/>
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
     
   </entry>
   
   <entry>
-    <title>shader性能分析</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/fen-xi-gong-ju/shader-xing-neng-fen-xi/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/fen-xi-gong-ju/shader-xing-neng-fen-xi/</id>
-    <published>2021-12-22T06:58:22.000Z</published>
-    <updated>2021-12-31T13:49:40.079Z</updated>
+    <title>SRP_03_DirectionalLights</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/11/17/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-03-directionallights/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/11/17/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-03-directionallights/</id>
+    <published>2022-11-17T10:49:21.000Z</published>
+    <updated>2022-11-19T07:08:36.031Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Shader性能分析&quot;&gt;&lt;a href=&quot;#Shader性能分析&quot; class=&quot;headerlink&quot; title=&quot;Shader性能分析&quot;&gt;&lt;/a&gt;Shader性能分析&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;How to Analyze the</summary>
+    <summary type="html">&lt;h1 id=&quot;一、Directional-Lights&quot;&gt;&lt;a href=&quot;#一、Directional-Lights&quot; class=&quot;headerlink&quot; title=&quot;一、Directional Lights&quot;&gt;&lt;/a&gt;一、Directional</summary>
         
       
     
     
     
-    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
     
     
-    <category term="分析工具" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7/"/>
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
+    
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
+    
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
     
   </entry>
   
   <entry>
-    <title>kajiya-kay头发渲染</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/jiao-se/tou-fa-xuan-ran/kajiya-kay-tou-fa-xuan-ran/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/jiao-se/tou-fa-xuan-ran/kajiya-kay-tou-fa-xuan-ran/</id>
-    <published>2021-12-22T06:48:53.000Z</published>
-    <updated>2021-12-31T13:49:40.093Z</updated>
+    <title>SRP_02_DrawCalls</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/11/17/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-02-drawcalls/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/11/17/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-02-drawcalls/</id>
+    <published>2022-11-17T08:03:16.000Z</published>
+    <updated>2022-11-19T07:08:36.031Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Kajiya-kay-头发渲染&quot;&gt;&lt;a href=&quot;#Kajiya-kay-头发渲染&quot; class=&quot;headerlink&quot; title=&quot;Kajiya-kay 头发渲染&quot;&gt;&lt;/a&gt;Kajiya-kay 头发渲染&lt;/h1&gt;&lt;img</summary>
+    <summary type="html">&lt;h1 id=&quot;一、SRP-Batcher&quot;&gt;&lt;a href=&quot;#一、SRP-Batcher&quot; class=&quot;headerlink&quot; title=&quot;一、SRP Batcher&quot;&gt;&lt;/a&gt;一、SRP Batcher&lt;/h1&gt;&lt;h4 id=&quot;简述：&quot;&gt;&lt;a href=&quot;#简述：&quot;</summary>
         
       
     
     
     
-    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
     
     
-    <category term="渲染效果" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%95%88%E6%9E%9C/"/>
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
     
-    <category term="角色" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%A7%92%E8%89%B2/"/>
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
     
-    <category term="头发渲染" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%A4%B4%E5%8F%91%E6%B8%B2%E6%9F%93/"/>
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
     
   </entry>
   
   <entry>
-    <title>法线外扩</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/zhao-se/npr/miao-bian/fa-xian-wai-kuo/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/zhao-se/npr/miao-bian/fa-xian-wai-kuo/</id>
-    <published>2021-12-22T06:05:44.000Z</published>
-    <updated>2021-12-31T13:49:40.159Z</updated>
+    <title>SRP_01_CustomRP</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/11/17/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-01-customrp/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/11/17/gamedevelop/gameengine/unity/kuo-zhan-nei-rong-package/xuan-ran-fang-xiang/guan-xian/srp/srp-01-customrp/</id>
+    <published>2022-11-17T07:09:59.000Z</published>
+    <updated>2022-11-19T07:08:36.030Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/95986273&quot;&gt;https://zhuanlan.zhihu.com/p/95986273&lt;/a&gt;&lt;/p&gt;
-&lt;img</summary>
+    <summary type="html">&lt;h1 id=&quot;一、结构&quot;&gt;&lt;a href=&quot;#一、结构&quot; class=&quot;headerlink&quot; title=&quot;一、结构&quot;&gt;&lt;/a&gt;一、结构&lt;/h1&gt;&lt;pre class=&quot;line-numbers language-c#&quot; data-language=&quot;c#&quot;&gt;&lt;code</summary>
         
       
     
     
     
-    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
+    <category term="Unity" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Unity/"/>
     
     
-    <category term="视觉外观" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%A7%86%E8%A7%89%E5%A4%96%E8%A7%82/"/>
+    <category term="Package" scheme="https://klj35.github.io/BloodSoul.github.io/tags/Package/"/>
     
-    <category term="着色" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%9D%80%E8%89%B2/"/>
+    <category term="渲染方向" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%96%B9%E5%90%91/"/>
     
-    <category term="NPR" scheme="https://klj35.github.io/BloodSoul.github.io/tags/NPR/"/>
-    
-    <category term="描边" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%8F%8F%E8%BE%B9/"/>
+    <category term="管线" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%AE%A1%E7%BA%BF/"/>
     
   </entry>
   
   <entry>
-    <title>伽马校正与线性空间</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/jia-ma-xiao-zheng/jia-ma-xiao-zheng-yu-xian-xing-kong-jian/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shi-jue-wai-guan/jia-ma-xiao-zheng/jia-ma-xiao-zheng-yu-xian-xing-kong-jian/</id>
-    <published>2021-12-22T03:41:53.000Z</published>
-    <updated>2021-12-31T13:49:40.157Z</updated>
+    <title>apktool工具使用</title>
+    <link href="https://klj35.github.io/BloodSoul.github.io/2022/07/22/gamedevelop/gamecontent/aroundfunction/you-xi-an-quan/jie-bao/apktool-gong-ju-shi-yong/"/>
+    <id>https://klj35.github.io/BloodSoul.github.io/2022/07/22/gamedevelop/gamecontent/aroundfunction/you-xi-an-quan/jie-bao/apktool-gong-ju-shi-yong/</id>
+    <published>2022-07-22T13:33:57.000Z</published>
+    <updated>2022-07-22T13:53:55.688Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;基础概念&quot;&gt;&lt;a href=&quot;#基础概念&quot; class=&quot;headerlink&quot; title=&quot;基础概念&quot;&gt;&lt;/a&gt;基础概念&lt;/h3&gt;&lt;p&gt;Shader 入门精要，18.4.2章节&lt;/p&gt;
-&lt;img</summary>
+    <summary type="html">&lt;h1 id=&quot;apktool工具使用&quot;&gt;&lt;a href=&quot;#apktool工具使用&quot; class=&quot;headerlink&quot; title=&quot;apktool工具使用&quot;&gt;&lt;/a&gt;apktool工具使用&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
+    <category term="AroundFunction" scheme="https://klj35.github.io/BloodSoul.github.io/categories/AroundFunction/"/>
     
     
-    <category term="视觉外观" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E8%A7%86%E8%A7%89%E5%A4%96%E8%A7%82/"/>
+    <category term="游戏安全" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B8%E6%88%8F%E5%AE%89%E5%85%A8/"/>
     
-    <category term="伽马校正" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E4%BC%BD%E9%A9%AC%E6%A0%A1%E6%AD%A3/"/>
-    
-    <category term="线性空间" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>潮湿材质实现方式</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/te-shu-cai-zhi/chao-shi-cai-zhi/chao-shi-cai-zhi-shi-xian-fang-shi/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/xuan-ran-xiao-guo/chang-jing/te-shu-cai-zhi/chao-shi-cai-zhi/chao-shi-cai-zhi-shi-xian-fang-shi/</id>
-    <published>2021-12-22T03:34:44.000Z</published>
-    <updated>2021-12-31T13:49:40.089Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;SIGGRAPH 上顽皮狗的分享&lt;/p&gt;
-&lt;p&gt;Here are a few more examples. Note how the puddles show four characteristic regions. A) Core of the puddle, the</summary>
-        
-      
-    
-    
-    
-    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
-    
-    
-    <category term="渲染效果" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B2%E6%9F%93%E6%95%88%E6%9E%9C/"/>
-    
-    <category term="场景" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%9C%BA%E6%99%AF/"/>
-    
-    <category term="特殊材质" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E7%89%B9%E6%AE%8A%E6%9D%90%E8%B4%A8/"/>
-    
-    <category term="潮湿材质" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%BD%AE%E6%B9%BF%E6%9D%90%E8%B4%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>有意思的网站</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/hobby/you-qu-de-dong-xi/you-yi-si-de-wang-zhan/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/hobby/you-qu-de-dong-xi/you-yi-si-de-wang-zhan/</id>
-    <published>2021-12-22T03:32:43.000Z</published>
-    <updated>2021-12-31T13:49:40.191Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;随机代码&quot;&gt;&lt;a href=&quot;#随机代码&quot; class=&quot;headerlink&quot; title=&quot;随机代码&quot;&gt;&lt;/a&gt;随机代码&lt;/h4&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Hobby" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Hobby/"/>
-    
-    
-    <category term="有趣的东西" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B8%9C%E8%A5%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>面试基础知识回顾</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/demogallery/mian-shi/mian-shi-ji-chu-zhi-shi-hui-gu/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/demogallery/mian-shi/mian-shi-ji-chu-zhi-shi-hui-gu/</id>
-    <published>2021-12-22T02:12:44.000Z</published>
-    <updated>2021-12-31T13:49:40.005Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;一、简要说一下渲染流程、渲染流水线&quot;&gt;&lt;a href=&quot;#一、简要说一下渲染流程、渲染流水线&quot; class=&quot;headerlink&quot; title=&quot;一、简要说一下渲染流程、渲染流水线&quot;&gt;&lt;/a&gt;一、简要说一下渲染流程、渲染流水线&lt;/h3&gt;&lt;p&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="DemoGallery" scheme="https://klj35.github.io/BloodSoul.github.io/categories/DemoGallery/"/>
-    
-    
-    <category term="面试" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>分形布朗运动</title>
-    <link href="https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shu-xue-zhi-shi/zao-sheng/fen-xing-bu-lang-yun-dong/fen-xing-bu-lang-yun-dong/"/>
-    <id>https://klj35.github.io/BloodSoul.github.io/2021/12/22/gamedevelop/gamecontent/rendering/li-lun-zhi-shi/shu-xue-zhi-shi/zao-sheng/fen-xing-bu-lang-yun-dong/fen-xing-bu-lang-yun-dong/</id>
-    <published>2021-12-22T02:06:35.000Z</published>
-    <updated>2021-12-31T13:49:40.151Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;分形布朗运动&quot;&gt;&lt;a href=&quot;#分形布朗运动&quot; class=&quot;headerlink&quot; title=&quot;分形布朗运动&quot;&gt;&lt;/a&gt;分形布朗运动&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Rendering" scheme="https://klj35.github.io/BloodSoul.github.io/categories/Rendering/"/>
-    
-    
-    <category term="数学知识" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"/>
-    
-    <category term="噪声" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%99%AA%E5%A3%B0/"/>
-    
-    <category term="分形布朗运动" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E5%88%86%E5%BD%A2%E5%B8%83%E6%9C%97%E8%BF%90%E5%8A%A8/"/>
+    <category term="游戏解包" scheme="https://klj35.github.io/BloodSoul.github.io/tags/%E6%B8%B8%E6%88%8F%E8%A7%A3%E5%8C%85/"/>
     
   </entry>
   
